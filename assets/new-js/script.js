@@ -192,11 +192,11 @@ $(document).ready(function () {
     })(jQuery);
 
 
-    $('.countdown').downCount({
-        date: '03/28/2020 24:00:00',
-        offset: +4
-    }, function () {
-        alert('Время уже заполнено!');
-    });
+    // $('.countdown').downCount({
+    //     date: '03/28/2020 24:00:00',
+    //     offset: +4
+    // }, function () {
+    //     alert('Время уже заполнено!');
+    // });
 
 });
