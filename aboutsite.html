@@ -1,0 +1,698 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport"
+    content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <!-- ==================== -META-TAG-SEO-START- ==================== -->
+  <meta name="copyright" content="Информация о вашей фирме" />
+  <meta name="keywords" content="Ваши ключевые слова" />
+  <meta name="description" content="Описание Вашей страницы" />
+  <!-- ==================== -META-TAG-SEO-END- ==================== -->
+  <title>About site</title>
+  <link rel="icon" href="assets/new-img/logo/logo.png" />
+  <!-- ====================== -LINKS-MY-START- ====================== -->
+  <link rel="stylesheet" href="assets/new-style/icon.css" />
+  <link rel="stylesheet" href="assets/new-style/root.css" />
+  <link rel="stylesheet" href="assets/new-style/flexbox.css" />
+  <link rel="stylesheet" href="assets/new-style/normalize.css" />
+  <link rel="stylesheet" href="assets/new-style/style.css" />
+
+  <!-- ======================= -LINKS-MY-END- ======================= -->
+</head>
+
+<body class="h-body">
+  <div class="h-wrapper">
+    <!-- ====================== -HTML5-HEADER-START- ====================== -->
+    <header class="h-header">
+      <div class="h-header-block d_flex j_content_between a_items_center">
+        <div class="h-main-logo d_flex j_content_center a_items_center">
+          <div class="h-main-logo__background"></div>
+          <a href="#">
+            <img src="assets/new-img/logo/logo.png" alt="esparea" />
+          </a>
+        </div>
+        <nav class="h-header-menu d_flex j_content_between a_items_center">
+          <div class="h-header-menu__list d_flex j_content_between a_items_center">
+            <ul class="d_flex a_items_center j_content_between">
+              <li>
+                <a href="#">
+                  <i class="icon icon-coin"></i>
+                  <span>Espa coin: 0</span>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="icon icon-message"></i>
+                  <span>Сообщение</span>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="icon icon-friends"></i>
+                  <span> Друзья</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="h-menu-personal__info d_flex j_content_between a_items_center">
+            <div class="h-menu-help__info">
+              <a href="#" class="d_flex a_items_center j_content_center">
+                <i class="icon icon-alert"></i>
+              </a>
+            </div>
+            <div class="h-menu-dropdown dropdown">
+              <div class="h-menu-dropdown-btn dropdown-click__open window-click">
+                <button class="d_flex a_items_center">
+                  <i class="icon icon-person"></i>
+                  Вслед за гудроном
+                  <i class="icon icon-bottom"></i>
+                </button>
+              </div>
+              <div class="h-menu-dropdown__info dropdown-modal"
+                style="background-image: url('assets/new-img/header/menubg.jpg');">
+                <div class="parent">
+                  <div class="links">
+                    <ul>
+                      <li><a href="#">Аккаунт</a></li>
+                      <li><a href="#">Моя страница</a></li>
+                      <li><a href="#">Кошелек</a></li>
+                      <li><a href="#">Поддержка</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- ======================= -HTML5-HEADER-END- ======================= -->
+    <!-- ====================== -HTML5-SIDEBAR-START- ====================== -->
+    <main class="h-main-content">
+      <div class="h-main-content__block d_flex j_content_between">
+        <div class="h-sidebar-menu">
+          <div class="h-left-sidebar scrollbar parent d_flex f_direction_column j_content_between">
+            <div class="h-left-sidebar__links links">
+              <ul>
+                <li class="h-left-sidebar__links--active active">
+                  <a href="#" class="d_flex a_items_center">
+                    <i class="icon icon-home"></i>
+                    <span>Главная</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="d_flex a_items_center">
+                    <i class="icon icon-team"></i>
+                    <span>Команды</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="d_flex a_items_center">
+                    <i class="icon icon-cup"></i>
+                    <span class="active">Турниры</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="d_flex a_items_center">
+                    <i class="icon icon-matches"></i>
+                    <span>Матчи</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="left-sidebar__open left-sidebar__close d_flex a_items_center">
+              <i class="icon icon-back d_flex a_items_center"></i>
+              <span>Свернуть</span>
+            </div>
+          </div>
+        </div>
+        <!-- ==================== -HTML5-ABOUTSITE-START- =========== ======== -->
+        <div class="h-main-section">
+          <div class="h-container">
+            <div class="h-about-site__main">
+              <div class="h-back-homepage d_flex a_items_center">
+                <a href="#" class="d_flex a_items_center j_content_center">
+                  <i class="icon icon-content-home"></i>
+                </a>
+                <i class="icon icon-right-arrow"></i>
+                <p>Лиги</p>
+              </div>
+              <div class="h-about-site parent d_flex">
+                <div class="h-about-site__links links">
+                  <ul>
+                    <li data-link="1" class="active">Система уовней</li>
+                    <li data-link="2">Как работают матчи</li>
+                    <li data-link="3">Правила турниа</li>
+                    <li data-link="4">Заголовок</li>
+                    <li data-link="5">Заголовок</li>
+                    <li data-link="6">Заголовок</li>
+                    <li data-link="7">Заголовок</li>
+                    <li data-link="8">Заголовок</li>
+                  </ul>
+                </div>
+                <div class="h-about-site__blocks blocks">
+                  <div class="box h-about-site__blocks--text" data-box="1">
+                    <h1>Система уговней</h1>
+                    <div class="h-under-title">
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Hendrerit massa turpis convallis risus orci aenean non.
+                        Magna massa et aliquet pharetra, porttitor hac. Tempus
+                        sit massa consectetur scelerisque nec amet adipiscing
+                        mi. Odio laoreet tristique viverra nec.
+                      </p>
+                    </div>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Pulvinar viverra ac dui sed lectus quis. Bibendum arcu
+                      viverra etiam interdum eu. Viverra pellentesque enim
+                      sagittis etiam aliquet. Blandit arcu morbi maecenas lacus,
+                      consequat massa laoreet porttitor. Nunc proin purus
+                      elementum magnis. Commodo dolor diam facilisis lacus nisi
+                      hendrerit. Lorem vel pretium id suspendisse lacus egestas
+                      fermentum, faucibus. Ut massa fames sed gravida. Malesuada
+                      aenean fringilla rutrum dignissim in velit, duis. Nullam
+                      neque sed pellentesque egestas aliquet porttitor.</p>
+                    <p>Vehicula ac quam morbi quis elit, ultrices placerat. Amet sit diam
+                      integer vitae, dignissim est fermentum. Ornare commodo
+                      orci integer tristique cras pharetra volutpat massa.
+                      Congue pellentesque sodales eu velit dui in est sit. A,
+                      tellus urna, elementum quam pulvinar cursus nulla.
+                      Ultrices dolor netus gravida consequat in eu, a, tellus
+                      urna.</p>
+                    <p> Pulvinar proin lectus consectetur eu. At cursus orci
+                      nisi turpis. Ultrices laoreet pellentesque mi phasellus
+                      elementum vitae sollicitudin. Amet lobortis commodo sed
+                      tellus facilisis fusce sed. Enim dictumst elementum purus
+                      suspendisse tellus. Proin eu accumsan nibh vitae euismod
+                      dictumst molestie tempor dui. Mauris aenean magna laoreet
+                      aliquet. Consectetur tempor nibh hac condimentum quis
+                      blandit molestie facilisi. Lobortis nisi pharetra est
+                      facilisi tortor cras sem mauris. Sed mi ultricies massa
+                      nunc, eu semper in pretium. Augue sed condimentum egestas
+                      elementum. Urna arcu, ullamcorper leo, amet ornare at
+                      lectus. Parturient consequat quam nisl, vestibulum
+                      praesent dolor. Enim sed nisl gravida lacus, diam purus
+                      nec tincidunt odio. Amet lacus, mattis lacus ut faucibus.
+                      Vitae ligula quam dignissim vulputate bibendum odio eu.
+                      Lectus aenean molestie venenatis aliquam viverra et. Nunc,
+                      vehicula mi consectetur gravida convallis nulla lobortis
+                      et, sed. Mattis quis eget in est vitae eget. Fames dui non
+                      diam consectetur et amet tristique. Gravida et massa leo,
+                      ut morbi odio egestas est sed. Vitae diam erat nulla eu
+                      ultrices.</p>
+                    <p> Et mi id mattis posuere sed vel. Adipiscing
+                      facilisi aliquam commodo hac egestas non. Feugiat duis
+                      convallis montes, risus eleifend vitae libero. Platea quam
+                      sit commodo amet lectus elit massa. Malesuada integer
+                      massa dictumst sed dignissim nibh. Amet in vulputate
+                      iaculis libero. Gravida non ut accumsan cursus quam. Morbi
+                      faucibus elit arcu nec. Ullamcorper ut id at risus. Diam
+                      velit iaculis enim justo. Nulla nisl, aliquam elit eu.
+                      Blandit dignissim ornare duis risus, mi tincidunt at ac
+                      mattis. Sit feugiat pulvinar mus laoreet placerat. Sed non
+                      molestie odio nec convallis molestie.
+                    </p>
+                  </div>
+                  <div class="box h-about-site__blocks--text" data-box="2" style="display: none;">
+                    <h1>Как работают матчи</h1>
+                    <div class="h-under-title">
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Hendrerit massa turpis convallis risus orci aenean non.
+                        Magna massa et aliquet pharetra, porttitor hac. Tempus
+                        sit massa consectetur scelerisque nec amet adipiscing
+                        mi. Odio laoreet tristique viverra nec.
+                      </p>
+                    </div>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Pulvinar viverra ac dui sed lectus quis. Bibendum arcu
+                      viverra etiam interdum eu. Viverra pellentesque enim
+                      sagittis etiam aliquet. Blandit arcu morbi maecenas lacus,
+                      consequat massa laoreet porttitor. Nunc proin purus
+                      elementum magnis. Commodo dolor diam facilisis lacus nisi
+                      hendrerit. Lorem vel pretium id suspendisse lacus egestas
+                      fermentum, faucibus. Ut massa fames sed gravida. Malesuada
+                      aenean fringilla rutrum dignissim in velit, duis. Nullam
+                      neque sed pellentesque egestas aliquet porttitor.</p>
+                    <p>Vehicula ac quam morbi quis elit, ultrices placerat. Amet sit diam
+                      integer vitae, dignissim est fermentum. Ornare commodo
+                      orci integer tristique cras pharetra volutpat massa.
+                      Congue pellentesque sodales eu velit dui in est sit. A,
+                      tellus urna, elementum quam pulvinar cursus nulla.
+                      Ultrices dolor netus gravida consequat in eu, a, tellus
+                      urna.</p>
+                    <p> Pulvinar proin lectus consectetur eu. At cursus orci
+                      nisi turpis. Ultrices laoreet pellentesque mi phasellus
+                      elementum vitae sollicitudin. Amet lobortis commodo sed
+                      tellus facilisis fusce sed. Enim dictumst elementum purus
+                      suspendisse tellus. Proin eu accumsan nibh vitae euismod
+                      dictumst molestie tempor dui. Mauris aenean magna laoreet
+                      aliquet. Consectetur tempor nibh hac condimentum quis
+                      blandit molestie facilisi. Lobortis nisi pharetra est
+                      facilisi tortor cras sem mauris. Sed mi ultricies massa
+                      nunc, eu semper in pretium. Augue sed condimentum egestas
+                      elementum. Urna arcu, ullamcorper leo, amet ornare at
+                      lectus. Parturient consequat quam nisl, vestibulum
+                      praesent dolor. Enim sed nisl gravida lacus, diam purus
+                      nec tincidunt odio. Amet lacus, mattis lacus ut faucibus.
+                      Vitae ligula quam dignissim vulputate bibendum odio eu.
+                      Lectus aenean molestie venenatis aliquam viverra et. Nunc,
+                      vehicula mi consectetur gravida convallis nulla lobortis
+                      et, sed. Mattis quis eget in est vitae eget. Fames dui non
+                      diam consectetur et amet tristique. Gravida et massa leo,
+                      ut morbi odio egestas est sed. Vitae diam erat nulla eu
+                      ultrices.</p>
+                    <p> Et mi id mattis posuere sed vel. Adipiscing
+                      facilisi aliquam commodo hac egestas non. Feugiat duis
+                      convallis montes, risus eleifend vitae libero. Platea quam
+                      sit commodo amet lectus elit massa. Malesuada integer
+                      massa dictumst sed dignissim nibh. Amet in vulputate
+                      iaculis libero. Gravida non ut accumsan cursus quam. Morbi
+                      faucibus elit arcu nec. Ullamcorper ut id at risus. Diam
+                      velit iaculis enim justo. Nulla nisl, aliquam elit eu.
+                      Blandit dignissim ornare duis risus, mi tincidunt at ac
+                      mattis. Sit feugiat pulvinar mus laoreet placerat. Sed non
+                      molestie odio nec convallis molestie.
+                    </p>
+                  </div>
+                  <div class="box h-about-site__blocks--text" data-box="3" style="display: none;">
+                    <h1>Правила турниа</h1>
+                    <div class="h-under-title">
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Hendrerit massa turpis convallis risus orci aenean non.
+                        Magna massa et aliquet pharetra, porttitor hac. Tempus
+                        sit massa consectetur scelerisque nec amet adipiscing
+                        mi. Odio laoreet tristique viverra nec.
+                      </p>
+                    </div>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Pulvinar viverra ac dui sed lectus quis. Bibendum arcu
+                      viverra etiam interdum eu. Viverra pellentesque enim
+                      sagittis etiam aliquet. Blandit arcu morbi maecenas lacus,
+                      consequat massa laoreet porttitor. Nunc proin purus
+                      elementum magnis. Commodo dolor diam facilisis lacus nisi
+                      hendrerit. Lorem vel pretium id suspendisse lacus egestas
+                      fermentum, faucibus. Ut massa fames sed gravida. Malesuada
+                      aenean fringilla rutrum dignissim in velit, duis. Nullam
+                      neque sed pellentesque egestas aliquet porttitor.</p>
+                    <p>Vehicula ac quam morbi quis elit, ultrices placerat. Amet sit diam
+                      integer vitae, dignissim est fermentum. Ornare commodo
+                      orci integer tristique cras pharetra volutpat massa.
+                      Congue pellentesque sodales eu velit dui in est sit. A,
+                      tellus urna, elementum quam pulvinar cursus nulla.
+                      Ultrices dolor netus gravida consequat in eu, a, tellus
+                      urna.</p>
+                    <p> Pulvinar proin lectus consectetur eu. At cursus orci
+                      nisi turpis. Ultrices laoreet pellentesque mi phasellus
+                      elementum vitae sollicitudin. Amet lobortis commodo sed
+                      tellus facilisis fusce sed. Enim dictumst elementum purus
+                      suspendisse tellus. Proin eu accumsan nibh vitae euismod
+                      dictumst molestie tempor dui. Mauris aenean magna laoreet
+                      aliquet. Consectetur tempor nibh hac condimentum quis
+                      blandit molestie facilisi. Lobortis nisi pharetra est
+                      facilisi tortor cras sem mauris. Sed mi ultricies massa
+                      nunc, eu semper in pretium. Augue sed condimentum egestas
+                      elementum. Urna arcu, ullamcorper leo, amet ornare at
+                      lectus. Parturient consequat quam nisl, vestibulum
+                      praesent dolor. Enim sed nisl gravida lacus, diam purus
+                      nec tincidunt odio. Amet lacus, mattis lacus ut faucibus.
+                      Vitae ligula quam dignissim vulputate bibendum odio eu.
+                      Lectus aenean molestie venenatis aliquam viverra et. Nunc,
+                      vehicula mi consectetur gravida convallis nulla lobortis
+                      et, sed. Mattis quis eget in est vitae eget. Fames dui non
+                      diam consectetur et amet tristique. Gravida et massa leo,
+                      ut morbi odio egestas est sed. Vitae diam erat nulla eu
+                      ultrices.</p>
+                    <p> Et mi id mattis posuere sed vel. Adipiscing
+                      facilisi aliquam commodo hac egestas non. Feugiat duis
+                      convallis montes, risus eleifend vitae libero. Platea quam
+                      sit commodo amet lectus elit massa. Malesuada integer
+                      massa dictumst sed dignissim nibh. Amet in vulputate
+                      iaculis libero. Gravida non ut accumsan cursus quam. Morbi
+                      faucibus elit arcu nec. Ullamcorper ut id at risus. Diam
+                      velit iaculis enim justo. Nulla nisl, aliquam elit eu.
+                      Blandit dignissim ornare duis risus, mi tincidunt at ac
+                      mattis. Sit feugiat pulvinar mus laoreet placerat. Sed non
+                      molestie odio nec convallis molestie.
+                    </p>
+                  </div>
+                  <div class="box h-about-site__blocks--text" data-box="4" style="display: none;">
+                    <h1>Заголовок</h1>
+                    <div class="h-under-title">
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Hendrerit massa turpis convallis risus orci aenean non.
+                        Magna massa et aliquet pharetra, porttitor hac. Tempus
+                        sit massa consectetur scelerisque nec amet adipiscing
+                        mi. Odio laoreet tristique viverra nec.
+                      </p>
+                    </div>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Pulvinar viverra ac dui sed lectus quis. Bibendum arcu
+                      viverra etiam interdum eu. Viverra pellentesque enim
+                      sagittis etiam aliquet. Blandit arcu morbi maecenas lacus,
+                      consequat massa laoreet porttitor. Nunc proin purus
+                      elementum magnis. Commodo dolor diam facilisis lacus nisi
+                      hendrerit. Lorem vel pretium id suspendisse lacus egestas
+                      fermentum, faucibus. Ut massa fames sed gravida. Malesuada
+                      aenean fringilla rutrum dignissim in velit, duis. Nullam
+                      neque sed pellentesque egestas aliquet porttitor.</p>
+                    <p>Vehicula ac quam morbi quis elit, ultrices placerat. Amet sit diam
+                      integer vitae, dignissim est fermentum. Ornare commodo
+                      orci integer tristique cras pharetra volutpat massa.
+                      Congue pellentesque sodales eu velit dui in est sit. A,
+                      tellus urna, elementum quam pulvinar cursus nulla.
+                      Ultrices dolor netus gravida consequat in eu, a, tellus
+                      urna.</p>
+                    <p> Pulvinar proin lectus consectetur eu. At cursus orci
+                      nisi turpis. Ultrices laoreet pellentesque mi phasellus
+                      elementum vitae sollicitudin. Amet lobortis commodo sed
+                      tellus facilisis fusce sed. Enim dictumst elementum purus
+                      suspendisse tellus. Proin eu accumsan nibh vitae euismod
+                      dictumst molestie tempor dui. Mauris aenean magna laoreet
+                      aliquet. Consectetur tempor nibh hac condimentum quis
+                      blandit molestie facilisi. Lobortis nisi pharetra est
+                      facilisi tortor cras sem mauris. Sed mi ultricies massa
+                      nunc, eu semper in pretium. Augue sed condimentum egestas
+                      elementum. Urna arcu, ullamcorper leo, amet ornare at
+                      lectus. Parturient consequat quam nisl, vestibulum
+                      praesent dolor. Enim sed nisl gravida lacus, diam purus
+                      nec tincidunt odio. Amet lacus, mattis lacus ut faucibus.
+                      Vitae ligula quam dignissim vulputate bibendum odio eu.
+                      Lectus aenean molestie venenatis aliquam viverra et. Nunc,
+                      vehicula mi consectetur gravida convallis nulla lobortis
+                      et, sed. Mattis quis eget in est vitae eget. Fames dui non
+                      diam consectetur et amet tristique. Gravida et massa leo,
+                      ut morbi odio egestas est sed. Vitae diam erat nulla eu
+                      ultrices.</p>
+                    <p> Et mi id mattis posuere sed vel. Adipiscing
+                      facilisi aliquam commodo hac egestas non. Feugiat duis
+                      convallis montes, risus eleifend vitae libero. Platea quam
+                      sit commodo amet lectus elit massa. Malesuada integer
+                      massa dictumst sed dignissim nibh. Amet in vulputate
+                      iaculis libero. Gravida non ut accumsan cursus quam. Morbi
+                      faucibus elit arcu nec. Ullamcorper ut id at risus. Diam
+                      velit iaculis enim justo. Nulla nisl, aliquam elit eu.
+                      Blandit dignissim ornare duis risus, mi tincidunt at ac
+                      mattis. Sit feugiat pulvinar mus laoreet placerat. Sed non
+                      molestie odio nec convallis molestie.
+                    </p>
+                  </div>
+                  <div class="box h-about-site__blocks--text" data-box="5" style="display: none;">
+                    <h1>Заголово2</h1>
+                    <div class="h-under-title">
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Hendrerit massa turpis convallis risus orci aenean non.
+                        Magna massa et aliquet pharetra, porttitor hac. Tempus
+                        sit massa consectetur scelerisque nec amet adipiscing
+                        mi. Odio laoreet tristique viverra nec.
+                      </p>
+                    </div>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Pulvinar viverra ac dui sed lectus quis. Bibendum arcu
+                      viverra etiam interdum eu. Viverra pellentesque enim
+                      sagittis etiam aliquet. Blandit arcu morbi maecenas lacus,
+                      consequat massa laoreet porttitor. Nunc proin purus
+                      elementum magnis. Commodo dolor diam facilisis lacus nisi
+                      hendrerit. Lorem vel pretium id suspendisse lacus egestas
+                      fermentum, faucibus. Ut massa fames sed gravida. Malesuada
+                      aenean fringilla rutrum dignissim in velit, duis. Nullam
+                      neque sed pellentesque egestas aliquet porttitor.</p>
+                    <p>Vehicula ac quam morbi quis elit, ultrices placerat. Amet sit diam
+                      integer vitae, dignissim est fermentum. Ornare commodo
+                      orci integer tristique cras pharetra volutpat massa.
+                      Congue pellentesque sodales eu velit dui in est sit. A,
+                      tellus urna, elementum quam pulvinar cursus nulla.
+                      Ultrices dolor netus gravida consequat in eu, a, tellus
+                      urna.</p>
+                    <p> Pulvinar proin lectus consectetur eu. At cursus orci
+                      nisi turpis. Ultrices laoreet pellentesque mi phasellus
+                      elementum vitae sollicitudin. Amet lobortis commodo sed
+                      tellus facilisis fusce sed. Enim dictumst elementum purus
+                      suspendisse tellus. Proin eu accumsan nibh vitae euismod
+                      dictumst molestie tempor dui. Mauris aenean magna laoreet
+                      aliquet. Consectetur tempor nibh hac condimentum quis
+                      blandit molestie facilisi. Lobortis nisi pharetra est
+                      facilisi tortor cras sem mauris. Sed mi ultricies massa
+                      nunc, eu semper in pretium. Augue sed condimentum egestas
+                      elementum. Urna arcu, ullamcorper leo, amet ornare at
+                      lectus. Parturient consequat quam nisl, vestibulum
+                      praesent dolor. Enim sed nisl gravida lacus, diam purus
+                      nec tincidunt odio. Amet lacus, mattis lacus ut faucibus.
+                      Vitae ligula quam dignissim vulputate bibendum odio eu.
+                      Lectus aenean molestie venenatis aliquam viverra et. Nunc,
+                      vehicula mi consectetur gravida convallis nulla lobortis
+                      et, sed. Mattis quis eget in est vitae eget. Fames dui non
+                      diam consectetur et amet tristique. Gravida et massa leo,
+                      ut morbi odio egestas est sed. Vitae diam erat nulla eu
+                      ultrices.</p>
+                    <p> Et mi id mattis posuere sed vel. Adipiscing
+                      facilisi aliquam commodo hac egestas non. Feugiat duis
+                      convallis montes, risus eleifend vitae libero. Platea quam
+                      sit commodo amet lectus elit massa. Malesuada integer
+                      massa dictumst sed dignissim nibh. Amet in vulputate
+                      iaculis libero. Gravida non ut accumsan cursus quam. Morbi
+                      faucibus elit arcu nec. Ullamcorper ut id at risus. Diam
+                      velit iaculis enim justo. Nulla nisl, aliquam elit eu.
+                      Blandit dignissim ornare duis risus, mi tincidunt at ac
+                      mattis. Sit feugiat pulvinar mus laoreet placerat. Sed non
+                      molestie odio nec convallis molestie.
+                    </p>
+                  </div>
+                  <div class="box h-about-site__blocks--text" data-box="6" style="display: none;">
+                    <h1>Заголово3</h1>
+                    <div class="h-under-title">
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Hendrerit massa turpis convallis risus orci aenean non.
+                        Magna massa et aliquet pharetra, porttitor hac. Tempus
+                        sit massa consectetur scelerisque nec amet adipiscing
+                        mi. Odio laoreet tristique viverra nec.
+                      </p>
+                    </div>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Pulvinar viverra ac dui sed lectus quis. Bibendum arcu
+                      viverra etiam interdum eu. Viverra pellentesque enim
+                      sagittis etiam aliquet. Blandit arcu morbi maecenas lacus,
+                      consequat massa laoreet porttitor. Nunc proin purus
+                      elementum magnis. Commodo dolor diam facilisis lacus nisi
+                      hendrerit. Lorem vel pretium id suspendisse lacus egestas
+                      fermentum, faucibus. Ut massa fames sed gravida. Malesuada
+                      aenean fringilla rutrum dignissim in velit, duis. Nullam
+                      neque sed pellentesque egestas aliquet porttitor.</p>
+                    <p>Vehicula ac quam morbi quis elit, ultrices placerat. Amet sit diam
+                      integer vitae, dignissim est fermentum. Ornare commodo
+                      orci integer tristique cras pharetra volutpat massa.
+                      Congue pellentesque sodales eu velit dui in est sit. A,
+                      tellus urna, elementum quam pulvinar cursus nulla.
+                      Ultrices dolor netus gravida consequat in eu, a, tellus
+                      urna.</p>
+                    <p> Pulvinar proin lectus consectetur eu. At cursus orci
+                      nisi turpis. Ultrices laoreet pellentesque mi phasellus
+                      elementum vitae sollicitudin. Amet lobortis commodo sed
+                      tellus facilisis fusce sed. Enim dictumst elementum purus
+                      suspendisse tellus. Proin eu accumsan nibh vitae euismod
+                      dictumst molestie tempor dui. Mauris aenean magna laoreet
+                      aliquet. Consectetur tempor nibh hac condimentum quis
+                      blandit molestie facilisi. Lobortis nisi pharetra est
+                      facilisi tortor cras sem mauris. Sed mi ultricies massa
+                      nunc, eu semper in pretium. Augue sed condimentum egestas
+                      elementum. Urna arcu, ullamcorper leo, amet ornare at
+                      lectus. Parturient consequat quam nisl, vestibulum
+                      praesent dolor. Enim sed nisl gravida lacus, diam purus
+                      nec tincidunt odio. Amet lacus, mattis lacus ut faucibus.
+                      Vitae ligula quam dignissim vulputate bibendum odio eu.
+                      Lectus aenean molestie venenatis aliquam viverra et. Nunc,
+                      vehicula mi consectetur gravida convallis nulla lobortis
+                      et, sed. Mattis quis eget in est vitae eget. Fames dui non
+                      diam consectetur et amet tristique. Gravida et massa leo,
+                      ut morbi odio egestas est sed. Vitae diam erat nulla eu
+                      ultrices.</p>
+                    <p> Et mi id mattis posuere sed vel. Adipiscing
+                      facilisi aliquam commodo hac egestas non. Feugiat duis
+                      convallis montes, risus eleifend vitae libero. Platea quam
+                      sit commodo amet lectus elit massa. Malesuada integer
+                      massa dictumst sed dignissim nibh. Amet in vulputate
+                      iaculis libero. Gravida non ut accumsan cursus quam. Morbi
+                      faucibus elit arcu nec. Ullamcorper ut id at risus. Diam
+                      velit iaculis enim justo. Nulla nisl, aliquam elit eu.
+                      Blandit dignissim ornare duis risus, mi tincidunt at ac
+                      mattis. Sit feugiat pulvinar mus laoreet placerat. Sed non
+                      molestie odio nec convallis molestie.
+                    </p>
+                  </div>
+                  <div class="box h-about-site__blocks--text" data-box="7" style="display: none;">
+                    <h1>Заголово4</h1>
+                    <div class="h-under-title">
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Hendrerit massa turpis convallis risus orci aenean non.
+                        Magna massa et aliquet pharetra, porttitor hac. Tempus
+                        sit massa consectetur scelerisque nec amet adipiscing
+                        mi. Odio laoreet tristique viverra nec.
+                      </p>
+                    </div>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Pulvinar viverra ac dui sed lectus quis. Bibendum arcu
+                      viverra etiam interdum eu. Viverra pellentesque enim
+                      sagittis etiam aliquet. Blandit arcu morbi maecenas lacus,
+                      consequat massa laoreet porttitor. Nunc proin purus
+                      elementum magnis. Commodo dolor diam facilisis lacus nisi
+                      hendrerit. Lorem vel pretium id suspendisse lacus egestas
+                      fermentum, faucibus. Ut massa fames sed gravida. Malesuada
+                      aenean fringilla rutrum dignissim in velit, duis. Nullam
+                      neque sed pellentesque egestas aliquet porttitor.</p>
+                    <p>Vehicula ac quam morbi quis elit, ultrices placerat. Amet sit diam
+                      integer vitae, dignissim est fermentum. Ornare commodo
+                      orci integer tristique cras pharetra volutpat massa.
+                      Congue pellentesque sodales eu velit dui in est sit. A,
+                      tellus urna, elementum quam pulvinar cursus nulla.
+                      Ultrices dolor netus gravida consequat in eu, a, tellus
+                      urna.</p>
+                    <p> Pulvinar proin lectus consectetur eu. At cursus orci
+                      nisi turpis. Ultrices laoreet pellentesque mi phasellus
+                      elementum vitae sollicitudin. Amet lobortis commodo sed
+                      tellus facilisis fusce sed. Enim dictumst elementum purus
+                      suspendisse tellus. Proin eu accumsan nibh vitae euismod
+                      dictumst molestie tempor dui. Mauris aenean magna laoreet
+                      aliquet. Consectetur tempor nibh hac condimentum quis
+                      blandit molestie facilisi. Lobortis nisi pharetra est
+                      facilisi tortor cras sem mauris. Sed mi ultricies massa
+                      nunc, eu semper in pretium. Augue sed condimentum egestas
+                      elementum. Urna arcu, ullamcorper leo, amet ornare at
+                      lectus. Parturient consequat quam nisl, vestibulum
+                      praesent dolor. Enim sed nisl gravida lacus, diam purus
+                      nec tincidunt odio. Amet lacus, mattis lacus ut faucibus.
+                      Vitae ligula quam dignissim vulputate bibendum odio eu.
+                      Lectus aenean molestie venenatis aliquam viverra et. Nunc,
+                      vehicula mi consectetur gravida convallis nulla lobortis
+                      et, sed. Mattis quis eget in est vitae eget. Fames dui non
+                      diam consectetur et amet tristique. Gravida et massa leo,
+                      ut morbi odio egestas est sed. Vitae diam erat nulla eu
+                      ultrices.</p>
+                    <p> Et mi id mattis posuere sed vel. Adipiscing
+                      facilisi aliquam commodo hac egestas non. Feugiat duis
+                      convallis montes, risus eleifend vitae libero. Platea quam
+                      sit commodo amet lectus elit massa. Malesuada integer
+                      massa dictumst sed dignissim nibh. Amet in vulputate
+                      iaculis libero. Gravida non ut accumsan cursus quam. Morbi
+                      faucibus elit arcu nec. Ullamcorper ut id at risus. Diam
+                      velit iaculis enim justo. Nulla nisl, aliquam elit eu.
+                      Blandit dignissim ornare duis risus, mi tincidunt at ac
+                      mattis. Sit feugiat pulvinar mus laoreet placerat. Sed non
+                      molestie odio nec convallis molestie.
+                    </p>
+                  </div>
+                  <div class="box h-about-site__blocks--text" data-box="8" style="display: none;">
+                    <h1>Заголово5</h1>
+                    <div class="h-under-title">
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Hendrerit massa turpis convallis risus orci aenean non.
+                        Magna massa et aliquet pharetra, porttitor hac. Tempus
+                        sit massa consectetur scelerisque nec amet adipiscing
+                        mi. Odio laoreet tristique viverra nec.
+                      </p>
+                    </div>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Pulvinar viverra ac dui sed lectus quis. Bibendum arcu
+                      viverra etiam interdum eu. Viverra pellentesque enim
+                      sagittis etiam aliquet. Blandit arcu morbi maecenas lacus,
+                      consequat massa laoreet porttitor. Nunc proin purus
+                      elementum magnis. Commodo dolor diam facilisis lacus nisi
+                      hendrerit. Lorem vel pretium id suspendisse lacus egestas
+                      fermentum, faucibus. Ut massa fames sed gravida. Malesuada
+                      aenean fringilla rutrum dignissim in velit, duis. Nullam
+                      neque sed pellentesque egestas aliquet porttitor.</p>
+                    <p>Vehicula ac quam morbi quis elit, ultrices placerat. Amet sit diam
+                      integer vitae, dignissim est fermentum. Ornare commodo
+                      orci integer tristique cras pharetra volutpat massa.
+                      Congue pellentesque sodales eu velit dui in est sit. A,
+                      tellus urna, elementum quam pulvinar cursus nulla.
+                      Ultrices dolor netus gravida consequat in eu, a, tellus
+                      urna.</p>
+                    <p> Pulvinar proin lectus consectetur eu. At cursus orci
+                      nisi turpis. Ultrices laoreet pellentesque mi phasellus
+                      elementum vitae sollicitudin. Amet lobortis commodo sed
+                      tellus facilisis fusce sed. Enim dictumst elementum purus
+                      suspendisse tellus. Proin eu accumsan nibh vitae euismod
+                      dictumst molestie tempor dui. Mauris aenean magna laoreet
+                      aliquet. Consectetur tempor nibh hac condimentum quis
+                      blandit molestie facilisi. Lobortis nisi pharetra est
+                      facilisi tortor cras sem mauris. Sed mi ultricies massa
+                      nunc, eu semper in pretium. Augue sed condimentum egestas
+                      elementum. Urna arcu, ullamcorper leo, amet ornare at
+                      lectus. Parturient consequat quam nisl, vestibulum
+                      praesent dolor. Enim sed nisl gravida lacus, diam purus
+                      nec tincidunt odio. Amet lacus, mattis lacus ut faucibus.
+                      Vitae ligula quam dignissim vulputate bibendum odio eu.
+                      Lectus aenean molestie venenatis aliquam viverra et. Nunc,
+                      vehicula mi consectetur gravida convallis nulla lobortis
+                      et, sed. Mattis quis eget in est vitae eget. Fames dui non
+                      diam consectetur et amet tristique. Gravida et massa leo,
+                      ut morbi odio egestas est sed. Vitae diam erat nulla eu
+                      ultrices.</p>
+                    <p> Et mi id mattis posuere sed vel. Adipiscing
+                      facilisi aliquam commodo hac egestas non. Feugiat duis
+                      convallis montes, risus eleifend vitae libero. Platea quam
+                      sit commodo amet lectus elit massa. Malesuada integer
+                      massa dictumst sed dignissim nibh. Amet in vulputate
+                      iaculis libero. Gravida non ut accumsan cursus quam. Morbi
+                      faucibus elit arcu nec. Ullamcorper ut id at risus. Diam
+                      velit iaculis enim justo. Nulla nisl, aliquam elit eu.
+                      Blandit dignissim ornare duis risus, mi tincidunt at ac
+                      mattis. Sit feugiat pulvinar mus laoreet placerat. Sed non
+                      molestie odio nec convallis molestie.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- ==================== -HTML5-ABOUTSITE-END- ====================== -->
+      </div>
+    </main>
+    <!-- ====================== -HTML5-SIDEBAR-END- ====================== -->
+    <!-- ====================== -HTML5-FOOTER-START- ===================== -->
+    <footer class="h-footer">
+      <div class="h-footer-block d_flex j_content_between a_items_center">
+        <div class="h-footer-pages">
+          <ul class="d_flex j_content_between a_items_center">
+            <li><a href="#">Условия использования</a></li>
+            <li><a href="#">Поддержка</a></li>
+            <li><a href="#">Политика конфиденциальности</a></li>
+          </ul>
+        </div>
+        <div class="h-social-media">
+          <a href="#">
+            <i class="icon icon-vkmedia"></i>
+          </a>
+        </div>
+      </div>
+    </footer>
+    <!-- ======================= -HTML5-FOOTER-END- ====================== -->
+  </div>
+  <!-- ===================== -SCRIPT-PLUGIN-START- ===================== -->
+  <script src="assets/new-js/jquery-3.2.1.min.js"></script>
+  <script src="assets/new-js/jquery-ui.min.js"></script>
+  <!-- ====================== -SCRIPT-PLUGIN-END- ====================== -->
+  <!-- ======================= -SCRIPT-MY-START- ======================= -->
+  <script src="assets/new-js/script.js"></script>
+  <!-- ======================== -SCRIPT-MY-END- ======================== -->
+</body>
+
+</html>

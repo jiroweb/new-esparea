@@ -1,0 +1,94 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../new-font/icon-font/icomoon.eot?yaqho9');
+  src:  url('../new-font/icon-font/icomoon.eot?yaqho9#iefix') format('embedded-opentype'),
+    url('../new-font/icon-font/icomoon.ttf?yaqho9') format('truetype'),
+    url('../new-font/icon-font/icomoon.woff?yaqho9') format('woff'),
+    url('../new-font/icon-font/icomoon.svg?yaqho9#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon{
+  display: inline-block;
+}
+.icon-tick:before {
+  content: "\e914";
+}
+.icon-play:before {
+  content: "\e913";
+}
+.icon-winner:before {
+  content: "\e912";
+}
+.icon-datelogo:before {
+  content: "\e911";
+}
+.icon-vkmedia:before {
+  content: "\e910";
+}
+.icon-right-arrow:before {
+  content: "\e90e";
+}
+.icon-content-home:before {
+  content: "\e90d";
+}
+.icon-close:before {
+  content: "\e90c";
+}
+.icon-bottom:before {
+  content: "\e90a";
+}
+.icon-back:before {
+  content: "\e90b";
+}
+.icon-next:before {
+  content: "\e90f";
+}
+.icon-alert:before {
+  content: "\e906";
+}
+.icon-person:before {
+  content: "\e907";
+}
+.icon-signin-button:before {
+  content: "\e909";
+}
+.icon-coin:before {
+  content: "\e900";
+}
+.icon-message:before {
+  content: "\e901";
+}
+.icon-friends:before {
+  content: "\e902";
+}
+.icon-home:before {
+  content: "\e903";
+}
+.icon-team:before {
+  content: "\e904";
+}
+.icon-cup:before {
+  content: "\e905";
+}
+.icon-matches:before {
+  content: "\e908";
+}
+
