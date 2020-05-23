@@ -28,6 +28,12 @@
 .icon{
   display: inline-block;
 }
+.icon-gamesvg:before {
+  content: "\e915";
+}
+.icon-game-search:before {
+  content: "\e916";
+}
 .icon-tick:before {
   content: "\e914";
 }

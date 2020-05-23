@@ -199,4 +199,15 @@ $(document).ready(function () {
     //     alert('Время уже заполнено!');
     // });
 
+    $(document).ready(function () {
+        $(".h-gamelix-series__js").slick({
+            slidesToShow: 1,
+            arrows: false,
+            autoplay: false,
+            autoplaySpeed: 2000,
+            dots: true,
+    
+            });
+    });
+
 });
