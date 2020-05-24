@@ -2577,3 +2577,182 @@
 
 
 /*====================-PARTICIPATION-STYLE-END-=====================*/
+
+/*================-AVAILABLE-TOURNAMENTS-STYLE-START-===============*/
+.h-available-tournaments .h-informations-main__img h3 {
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 116%;
+    margin-bottom: 35px;
+    color: #FFFFFF;
+}
+
+.h-available-tournaments .h-regulation-btn button {
+    width: 255px;
+    height: 43px;
+}
+
+.h-available-tournaments__bg {
+    padding: 0 35px;
+}
+
+.single-video__block {
+    max-width: 485px;
+    width: 100%;
+    height: 251px;
+    transition: 0.4s;
+    position: relative;
+    overflow: hidden;
+}
+
+.single-video__block .video {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+
+.video-play__bg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.video-play__icon {
+    position: absolute;
+    width: 76px;
+    height: 76px;
+    background-color: #63CAA1;
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.video-play__icon:after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-top: 15px solid transparent;
+    border-left: 25px solid #FFFFFF;
+    border-bottom: 15px solid transparent;
+    top: 50%;
+    left: 55%;
+    transform: translateX(-50%) translateY(-50%);
+    z-index: 999;
+}
+
+
+.h-available-tournaments .h-gamelix-games__details span {
+    font-weight: bold;
+}
+
+.h-available-tournaments .h-gamelix-games__details p {
+    margin: 10px 0 15px;
+}
+
+.h-available-tournaments .h-gamelix-games__details span i {
+    color: grey;
+    margin-left: 10px;
+    font-size: 22px;
+}
+
+.h-available-tournaments__block {
+    margin: 0 -5px;
+}
+
+.h-available-tournaments__info {
+    width: 66.6%;
+    padding: 0 5px;
+}
+
+.h-available-tournaments__info h3 {
+    font-weight: normal;
+}
+
+.h-available-tournaments__info .h-available-tournaments__list {
+    padding: 15px 16px 14px 18px;
+    border-radius: var(--border-radius);
+    border: 1px solid #9FE7BC;
+    box-shadow: 0px 2px 2px rgba(5, 24, 46, 0.25);
+}
+
+.h-available-tournaments__list h3 {
+    font-size: 36px;
+    font-weight: 500;
+    color: #FFFFFF;
+
+}
+
+.h-available-tournaments__info .h-available-tournaments__list p {
+    width: 550px;
+    margin: 10px 0 15px;
+
+}
+
+.h-available-tournaments__list p {
+    font-size: 16px;
+    line-height: 140%;
+    color: #FFFFFF;
+}
+
+.h-available-tournaments__list .h-regulation-btn {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.h-available-tournaments .h-timetables-participants__info .h-section-h3__title {
+    margin-top: 20px;
+}
+
+.h-available-tournaments .h-timetables-participants__info .h-section-h3__title i {
+    color: grey;
+    margin-left: 10px;
+}
+
+.h-available-tournaments .h-timetables-page {
+    width: 100%;
+}
+
+.h-available-tournaments .h-page-info {
+    margin: 0 auto;
+}
+
+.h-available-tournaments .h-gamelix-registration__block {
+    padding: 45px 65px 43px 65px;
+}
+
+.h-available-tournaments .h-gamelix-registration__block h3 {
+    font-size: 36px;
+}
+
+.h-tournaments-price__info table {
+    margin-bottom: 15px;
+}
+
+.h-tournaments-price__info tr td {
+    padding: 3px 0;
+}
+
+.h-tournaments-price__info tr td {
+    font-weight: lighter;
+    font-size: 24px;
+    color: #FFFFFF;
+}
+
+.h-tournaments-price__info tr td:last-child {
+    font-weight: normal;
+    text-align: end;
+}
+
+.h-tournaments-price__info tr:first-child td:last-child {
+    color: #DBA360;
+}
+
+.h-tournaments-price__info .h-regulation-btn button {
+    background: linear-gradient(257.97deg, #DBA360 -7.68%, #764F1E 105.17%);
+}
+
+/*=================-AVAILABLE-TOURNAMENTS-STYLE-END-================*/
