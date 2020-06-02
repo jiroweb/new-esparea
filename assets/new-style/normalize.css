@@ -120,6 +120,7 @@ table {
 *:after {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
+    outline: none;
 }
 
 input::-webkit-inner-spin-button,
