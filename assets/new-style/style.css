@@ -2109,7 +2109,7 @@
     padding: 0 4px;
 }
 
-.h-gamelix-league__main {
+.h-gamelix-league__main, .h-gamelix-league__main--btn  {
     border: 1px solid #4D3B26;
 }
 
@@ -2133,8 +2133,16 @@
     color: #FFFFFF;
 }
 
-.h-gamelix-league table tr:first-child td:last-child {
+.h-gamelix-league__main .h-gamelix-league table tr:first-child td:last-child {
     color: #DBA360;
+}
+
+.h-gamelix-league__main--btn .h-regulation-btn{
+    margin-top: 20px;
+}
+.h-gamelix-league__main--btn .h-regulation-btn button{
+width: 100%;
+padding: 14px 9px;
 }
 
 .h-gamelix-platinum__info {
@@ -2155,10 +2163,17 @@
     color: #FFFFFF;
     margin-bottom: 11px;
 }
+.h-gamalix-platinum__second p{
+    margin-bottom: 0;
+}
 
 .h-gamelix-platinum__btn button {
     width: 100%;
     background: linear-gradient(77.94deg, #764CB9 -0.85%, #A47BE6 105.52%);
+}
+.h-gamelix-platinum__btn--change button{
+    font-size: 24px;
+    font-weight: bold;
 }
 
 .h-gamelix-platinum__info p i {
@@ -2657,6 +2672,16 @@
     margin-left: 10px;
     font-size: 22px;
 }
+.h-gamelix-games__change p {
+margin: 20px 0;
+font-size: 17px;
+line-height: 158%;
+color: #FFFFFF;
+}
+.h-gamelix-games__change .h-regulation-btn button{
+    width: 100%;
+    padding: 14px 9px;
+}
 
 .h-available-tournaments__block {
     margin: 0 -5px;
@@ -2682,7 +2707,6 @@
     font-size: 36px;
     font-weight: 500;
     color: #FFFFFF;
-
 }
 
 .h-available-tournaments__info .h-available-tournaments__list p {
