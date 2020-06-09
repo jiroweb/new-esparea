@@ -2109,7 +2109,8 @@
     padding: 0 4px;
 }
 
-.h-gamelix-league__main, .h-gamelix-league__main--btn  {
+.h-gamelix-league__main,
+.h-gamelix-league__main--btn {
     border: 1px solid #4D3B26;
 }
 
@@ -2137,12 +2138,13 @@
     color: #DBA360;
 }
 
-.h-gamelix-league__main--btn .h-regulation-btn{
+.h-gamelix-league__main--btn .h-regulation-btn {
     margin-top: 20px;
 }
-.h-gamelix-league__main--btn .h-regulation-btn button{
-width: 100%;
-padding: 14px 9px;
+
+.h-gamelix-league__main--btn .h-regulation-btn button {
+    width: 100%;
+    padding: 14px 9px;
 }
 
 .h-gamelix-platinum__info {
@@ -2163,7 +2165,8 @@ padding: 14px 9px;
     color: #FFFFFF;
     margin-bottom: 11px;
 }
-.h-gamalix-platinum__second p{
+
+.h-gamalix-platinum__second p {
     margin-bottom: 0;
 }
 
@@ -2171,7 +2174,8 @@ padding: 14px 9px;
     width: 100%;
     background: linear-gradient(77.94deg, #764CB9 -0.85%, #A47BE6 105.52%);
 }
-.h-gamelix-platinum__btn--change button{
+
+.h-gamelix-platinum__btn--change button {
     font-size: 24px;
     font-weight: bold;
 }
@@ -2672,13 +2676,15 @@ padding: 14px 9px;
     margin-left: 10px;
     font-size: 22px;
 }
+
 .h-gamelix-games__change p {
-margin: 20px 0;
-font-size: 17px;
-line-height: 158%;
-color: #FFFFFF;
+    margin: 20px 0;
+    font-size: 17px;
+    line-height: 158%;
+    color: #FFFFFF;
 }
-.h-gamelix-games__change .h-regulation-btn button{
+
+.h-gamelix-games__change .h-regulation-btn button {
     width: 100%;
     padding: 14px 9px;
 }
@@ -2779,3 +2785,561 @@ color: #FFFFFF;
 }
 
 /*=================-AVAILABLE-TOURNAMENTS-STYLE-END-================*/
+/*===============-SUBSCRIPTION-MODAL-STYLE-START-===================*/
+.h-subscription-modal__content {
+    padding: 17px 13px 16px;
+}
+
+.h-subscription-modal .h-modal-container {
+    position: relative;
+}
+
+
+.h-subscription-modal .h-modal-container:after {
+    position: absolute;
+    content: "";
+    height: 1px;
+    width: 100%;
+    background: #945BDD;
+    opacity: 0.3;
+    top: 60px;
+    left: 0;
+}
+
+.h-subscription-modal__content .h-title-modal {
+    font-weight: 900;
+    font-size: 24px;
+    color: #FFFFFF;
+    margin-bottom: 29px;
+    text-align: left;
+
+}
+
+.h-subscription-modal__info {
+    background-color: rgba(27, 48, 38, 0.4);
+    border: 1px solid #B221E4;
+    box-shadow: 0px 0px 8px rgba(85, 37, 89, 0.46);
+    border-radius: var(--border-radius);
+    padding: 25px 20px 30px;
+}
+
+.h-subscription-modal__info p {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 160%;
+    color: #FFFFFF;
+    margin-bottom: 25px;
+}
+
+.h-modal-password {
+    max-width: 285px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.h-modal-password p {
+    font-weight: normal;
+    margin-bottom: 14px;
+    text-align: left;
+}
+
+.h-modal-password input {
+    background-color: rgba(32, 75, 57, 0.31);
+    border: 1px solid #945BDD;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.46);
+    border-radius: 4px;
+    padding: 13px 20px;
+    width: 100%;
+    margin-bottom: 24px;
+}
+
+.h-subscription-modal__info .h-gamelix-platinum__btn button {
+    padding: 11px 0 14px;
+    max-width: 285px;
+    margin: 0 auto;
+    font-weight: bold;
+    font-size: 18px;
+    color: #FFFFFF;
+    border-radius: var(--border-radius);
+    box-shadow: 0px 4px 50px #945BDD;
+}
+
+/*===============-SUBSCRIPTION-MODAL-STYLE-END-=====================*/
+/*=================-REFERRAL-MODAL-STYLE-START-=====================*/
+
+.h-referral-modal__info {
+    padding: 27px 20px 22px;
+}
+
+.h-referral-modal {
+    padding-left: 9px;
+}
+
+.h-referral-modal p {
+    text-transform: uppercase;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.h-referral-modal ul {
+    margin-bottom: 47px;
+}
+
+.h-referral-modal ul li {
+    font-size: 16px;
+    line-height: 160%;
+    color: #FFFFFF;
+    position: relative;
+    text-align: left;
+    padding-left: 13px;
+}
+
+.h-referral-modal ul li:before {
+    position: absolute;
+    content: "";
+    width: 7px;
+    height: 7px;
+    background: #945BDD;
+    border-radius: 11px;
+    left: 0;
+    top: 9px;
+}
+
+.h-referral-modal__info .h-modal-password input {
+    text-align: center;
+}
+
+/*=================-REFERRAL-MODAL-STYLE-END-=====================*/
+/*================-ADRENALINERUSH-STYLE-START-====================*/
+.h-adrenaline-header{
+    border-bottom: 1px solid transparent;
+
+}
+.h-adrenalinerush-block .h-header-menu__list ul li .icon {
+    color: var(--color-purple);
+}
+.h-adrenalinerush-block  .h-header-menu__list ul li a:hover span {
+    color: var(--color-purple);
+}
+
+.h-adrenalinerush-block .h-menu-help__info a {
+    background-color: var(--color-purple);
+}
+
+.h-adrenalinerush-block .h-menu-dropdown button {
+    border: 1px solid transparent;
+}
+
+.h-main-adrenaline__block .h-left-sidebar__links ul li a .icon {
+    color: var(--color-purple);
+}
+
+.h-main-adrenaline__block .h-left-sidebar__links ul li:hover .icon,
+.h-main-adrenaline__block .h-left-sidebar__links ul .active a .icon {
+    color: white;
+}
+
+.h-main-adrenaline__block .h-left-sidebar__links ul li a:hover,
+.h-left-sidebar__links ul .active a {
+    background-color: rgba(128, 68, 225, 0.2);
+}
+
+.h-main-adrenaline__block .h-back-homepage a {
+    background-color: var(--color-purple);
+}
+
+.h-main-adrenaline__block .h-back-homepage a .icon-content-home {
+    color: white;
+}
+
+.h-main-adrenaline__block .h-registrations-main__img {
+    background-size: auto;
+    border-radius: var(--border-radius);
+    background-color: rgba(69, 54, 78, 0.4);
+    position: relative;
+    padding: 0 23px 0 0;
+}
+
+.h-main-adrenaline__block .h-registrations-main__img span {
+    width: 12.4%;
+    height: 78px;
+}
+
+.h-adrenalinerush-title-main {
+    width: 87.6%;
+}
+
+.h-main-adrenaline__block .h-adrenalinerush-title h2 {
+    font-size: 28px;
+    line-height: 33px;
+    color: #FFFFFF;
+}
+
+.h-main-adrenaline__block .h-adrenalinerush-title p {
+    font-size: 16px;
+    line-height: 19px;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.h-main-adrenaline__block .h-adrenalinerush-title:nth-child(2) {
+    text-align: right;
+}
+
+.h-main-adrenaline__block .h-gamer-name__style {
+    background-color: var(--color-purple);
+}
+
+.h-main-adrenaline__block .h-first-round__teams .h-rounds-style .h-gamer-winner::after {
+    border: 1px solid var(--color-purple);
+    border-top: none;
+    border-right: none;
+}
+
+.h-main-adrenaline__block .h-gamer-winner::before {
+    border: .5px solid var(--color-purple);
+}
+
+.h-main-adrenaline__block .h-first-round__teams .h-rounds-style .h-teams-name__style:nth-child(2) .h-gamer-winner::after {
+    border: 1px solid var(--color-purple);
+    border-bottom: none;
+    border-right: none;
+}
+
+.h-main-adrenaline__block .h-first-round__teams .h-gamer-second:after {
+    background-color: var(--color-purple);
+}
+
+.h-main-adrenaline__block .h-first-round__teams .h-gamer-second:before {
+    background-color: var(--color-purple);
+}
+
+.h-main-adrenaline__block .h-gamer-second:after {
+    background-color: var(--color-purple);
+}
+
+.h-main-adrenaline__block .h-gamer-second:before {
+    background-color: var(--color-purple);
+}
+
+.h-main-adrenaline__block .h-second-round__teams .h-teams-name__style .h-gamer-winner::after {
+    border: 1px solid var(--color-purple);
+    border-top: none;
+    border-right: none;
+}
+
+.h-main-adrenaline__block .h-second-round__teams .h-teams-name__style:nth-child(2n) .h-gamer-winner::after {
+    border: 1px solid var(--color-purple);
+    border-bottom: none;
+    border-right: none;
+}
+
+.h-main-adrenaline__block .h-third-round__teams .h-teams-name__style .h-gamer-winner::after {
+    border: 1px solid var(--color-purple);
+    border-top: none;
+    border-right: none;
+}
+
+.h-main-adrenaline__block .h-third-round__teams .h-teams-name__style:nth-child(2n) .h-gamer-winner::after {
+    border: 1px solid var(--color-purple);
+    border-bottom: none;
+    border-right: none;
+}
+
+.h-main-adrenaline__block .h-fohurt-round__teams .h-teams-name__style:nth-child(2n) .h-gamer-winner::after {
+    border: 1px solid var(--color-purple);
+    border-bottom: none;
+    border-right: none;
+}
+
+.h-main-adrenaline__block .h-fohurt-round__teams .h-teams-name__style .h-gamer-winner::after {
+    border: 1px solid var(--color-purple);
+    border-top: none;
+    border-right: none;
+}
+
+.h-main-adrenaline__block .h-rounds-info__main {
+    padding: 0px 15px 17px 0;
+}
+
+.h-adrenaline-round {
+    width: 1030px;
+    padding-left: 15px;
+    margin-bottom: 10px;
+}
+
+.h-adreanline-single__round {
+    width: 109px;
+    background-color: rgba(28, 211, 90, 0.7);
+    text-align: center;
+    padding: 3px 0 2px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.h-adreanline-single__round p {
+    font-size: 12px;
+    line-height: 12px;
+    color: #FFFFFF;
+}
+
+.h-adreanline-single__round span {
+    font-size: 7px;
+    color: #FFFFFF;
+}
+
+.h-adreanline-single__round:nth-child(2) {
+    margin: 0 90px 0 95px;
+}
+
+.h-adreanline-single__round:nth-child(4) {
+    margin: 0 96px 0 97px;
+}
+
+.h-main-adrenaline__block .scrollbar::-webkit-scrollbar-thumb {
+    background: var(--color-purple);
+}
+
+.h-main-adrenaline__block .h-timetables-participants__list {
+    width: 47%;
+}
+
+.h-main-adrenaline__block .h-timetables-participants {
+    width: 100%;
+}
+
+.h-main-adrenaline__block .h-game-details {
+    height: 47px;
+}
+.h-main-adrenaline__block .h-game-details .h-first-team{
+    width: 134px;
+} 
+.h-main-adrenaline__block .h-game-details .h-game-logo{
+    width: 28px;
+    height: 29px;
+}
+.h-adrenaline-game__details p{
+    font-weight: 500;
+font-size: 16px;
+color: #FFFFFF;
+}
+.h-adrenaline-game__details{
+    width: 113px;
+}
+.h-adrenaline-game__details--done{
+    background: #8044FF;
+box-shadow: 0px 4px 4px rgba(22, 25, 28, 0.37);
+border-radius: 4px;
+width: 26px;
+height: 28px;
+text-align: center;
+    padding: 6px 0;
+}
+.h-adrenaline-game__details--done .icon-bottom{
+    color: white;
+    font-size: 15px;
+}
+
+.h-main-adrenaline__block .date-form {
+    background: linear-gradient(263.39deg, #533163 -3.15%, #69009B 97.3%);
+    opacity: 0.78;
+    border-radius: 4px;
+    width: 25%;
+    padding: 10px 25px;
+}
+
+.h-main-adrenaline__block .date-form p {
+    font-weight: bold;
+    font-size: 14px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.h-main-adrenaline__block .h-timetables-page {
+    width: 75%;
+    background: linear-gradient(254.67deg, #533163 -3.15%, #69009B 97.3%);
+    border-radius: 4px;
+}
+
+.h-adrenaline-second__game {
+    width: 100%;
+    margin-top: 16.5px;
+}
+
+.h-adrenaline-second__match {
+    width: 46%;
+    padding: 38px 24px 25px;
+    border-radius: var(--border-radius);
+    text-align: center;
+}
+
+.h-adrenaline-second__match--details .h-game-logo {
+    width: 53px;
+    height: 50px;
+    margin-bottom: 10px;
+    margin: 0 auto;
+}
+
+.h-adrenaline-second__match--details p {
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+
+.h-adrenaline-second__match--details span {
+    font-size: 12px;
+    color: #04DA00;
+}
+
+.h-adrenaline-second__match--title h3 {
+    font-weight: 500;
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 25px;
+}
+
+.h-adrenaline-second__match--title p {
+    font-size: 18px;
+    color: #FFFFFF;
+    margin-bottom: 25px;
+}
+
+.h-adrenaline-second__match--title p span {
+    font-weight: lighter;
+    font-size: 16px;
+}
+
+.h-adrenaline-second__match .h-regulation-btn {
+    width: 177px;
+    margin: 0 auto;
+}
+
+.h-adrenaline-second__match .h-regulation-btn button {
+    background: #17D965;
+    padding: 8px 23px 9px;
+}
+
+.h-adrenaline-second__match--info {
+    width: 53%;
+}
+
+.h-adrenaline-second__match--list {
+    margin: 0 -3px;
+}
+
+.h-adrenaline-match__single--info {
+    width: 33.3%;
+    padding: 3px;
+}
+
+.h-adrenaline-match__single--img {
+    width: 60px;
+    height: 65px;
+    margin-right: 5px;
+}
+
+.h-adrenaline-match__single--img img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.h-adrenaline-match__single--details {
+    padding: 15px 5px 15px 14px;
+    border-radius: var(--border-radius);
+}
+
+.h-adrenaline-match__single--text span {
+    font-size: 12px;
+    line-height: 14px;
+    color: #FFFFFF;
+}
+
+.h-adrenaline-match__single--text p {
+    font-weight: 500;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.h-premium-esport {
+    width: 100%;
+    min-height: 186px;
+    padding: 0 31px 0 40px;
+    border: 1px solid var(--color-purple);
+    margin-top: 20px;
+    border-radius: var(--border-radius);
+    background: linear-gradient(0deg, rgba(6, 38, 32, 0.81), rgba(6, 38, 32, 0.81)), 
+}
+.h-premium-esport__img{
+    width: 83px;
+    height: 80px;
+}
+.h-premium-esport__img img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.h-premium-esport__block h2 {
+    font-size: 36px;
+    color: #FFFFFF;
+    margin-left: 20px;
+}
+.h-premium-esport__btn .h-regulation-btn button{
+    background: var(--color-purple);
+    padding: 12px 14px;
+}
+.h-main-adrenaline__block .h-adrenaline-participants__block{
+    margin: 20px 0  ;
+}
+.h-adrenaline-participants__block .h-regulations-rules__block {
+    width: 100%;
+}
+
+.h-adrenaline-participants__block .h-regulations-list__section li:before {
+    background-color: white;
+}
+
+.h-adrenaline-participants__block .h-regulations-list__section li {
+    opacity: 1;
+}
+
+.h-adrenaline-rules {
+    margin: 0 -21px;
+}
+
+.h-adrenaline-participants__block .h-regulations-rules__block {
+    height: 390px;
+}
+
+.h-adrenaline-participants__block .h-rules-list .h-rules-text__info {
+    height: 340px;
+}
+
+.h-adrenaline-rules__text {
+    width: 25%;
+    padding: 7px 21px;
+}
+
+.h-adrenaline-participants__block .h-rules-list .h-rules-text__info p+p {
+    margin-top: 0;
+}
+
+.h-adrenaline-rules__text--info {
+    padding: 11.5px 22px;
+    background-color: #7B4CB6;
+}
+
+.h-adrenaline-rules__text--info p {
+    font-size: 16px;
+    color: #FFFFFF;
+}
+.h-premium-footer{
+    border-top: 1px solid var(--color-purple);
+}
+.h-premium-footer .h-footer-pages ul li a:hover {
+    color: var(--color-purple);
+}
+
+/*=================-ADRENALINERUSH-STYLE-END-=====================*/
