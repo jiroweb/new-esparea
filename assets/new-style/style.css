@@ -2916,49 +2916,18 @@
     border-bottom: 1px solid transparent;
 
 }
-.h-adrenalinerush-block .h-header-menu__list ul li .icon {
-    color: var(--color-purple);
-}
-.h-adrenalinerush-block  .h-header-menu__list ul li a:hover span {
-    color: var(--color-purple);
-}
-
-.h-adrenalinerush-block .h-menu-help__info a {
-    background-color: var(--color-purple);
-}
 
 .h-adrenalinerush-block .h-menu-dropdown button {
     border: 1px solid transparent;
 }
 
-.h-main-adrenaline__block .h-left-sidebar__links ul li a .icon {
-    color: var(--color-purple);
-}
-
-.h-main-adrenaline__block .h-left-sidebar__links ul li:hover .icon,
-.h-main-adrenaline__block .h-left-sidebar__links ul .active a .icon {
-    color: white;
-}
-
-.h-main-adrenaline__block .h-left-sidebar__links ul li a:hover,
-.h-left-sidebar__links ul .active a {
-    background-color: rgba(128, 68, 225, 0.2);
-}
-
-.h-main-adrenaline__block .h-back-homepage a {
-    background-color: var(--color-purple);
-}
-
-.h-main-adrenaline__block .h-back-homepage a .icon-content-home {
-    color: white;
-}
-
 .h-main-adrenaline__block .h-registrations-main__img {
     background-size: auto;
     border-radius: var(--border-radius);
-    background-color: rgba(69, 54, 78, 0.4);
+    background-color: rgba(93, 163, 135, 0.4);
     position: relative;
-    padding: 0 23px 0 0;
+    border: 1px solid var(--color-global);
+    padding: 0 17px ;
 }
 
 .h-main-adrenaline__block .h-registrations-main__img span {
@@ -2967,7 +2936,7 @@
 }
 
 .h-adrenalinerush-title-main {
-    width: 87.6%;
+    width: 100%;
 }
 
 .h-main-adrenaline__block .h-adrenalinerush-title h2 {
@@ -2984,78 +2953,6 @@
 
 .h-main-adrenaline__block .h-adrenalinerush-title:nth-child(2) {
     text-align: right;
-}
-
-.h-main-adrenaline__block .h-gamer-name__style {
-    background-color: var(--color-purple);
-}
-
-.h-main-adrenaline__block .h-first-round__teams .h-rounds-style .h-gamer-winner::after {
-    border: 1px solid var(--color-purple);
-    border-top: none;
-    border-right: none;
-}
-
-.h-main-adrenaline__block .h-gamer-winner::before {
-    border: .5px solid var(--color-purple);
-}
-
-.h-main-adrenaline__block .h-first-round__teams .h-rounds-style .h-teams-name__style:nth-child(2) .h-gamer-winner::after {
-    border: 1px solid var(--color-purple);
-    border-bottom: none;
-    border-right: none;
-}
-
-.h-main-adrenaline__block .h-first-round__teams .h-gamer-second:after {
-    background-color: var(--color-purple);
-}
-
-.h-main-adrenaline__block .h-first-round__teams .h-gamer-second:before {
-    background-color: var(--color-purple);
-}
-
-.h-main-adrenaline__block .h-gamer-second:after {
-    background-color: var(--color-purple);
-}
-
-.h-main-adrenaline__block .h-gamer-second:before {
-    background-color: var(--color-purple);
-}
-
-.h-main-adrenaline__block .h-second-round__teams .h-teams-name__style .h-gamer-winner::after {
-    border: 1px solid var(--color-purple);
-    border-top: none;
-    border-right: none;
-}
-
-.h-main-adrenaline__block .h-second-round__teams .h-teams-name__style:nth-child(2n) .h-gamer-winner::after {
-    border: 1px solid var(--color-purple);
-    border-bottom: none;
-    border-right: none;
-}
-
-.h-main-adrenaline__block .h-third-round__teams .h-teams-name__style .h-gamer-winner::after {
-    border: 1px solid var(--color-purple);
-    border-top: none;
-    border-right: none;
-}
-
-.h-main-adrenaline__block .h-third-round__teams .h-teams-name__style:nth-child(2n) .h-gamer-winner::after {
-    border: 1px solid var(--color-purple);
-    border-bottom: none;
-    border-right: none;
-}
-
-.h-main-adrenaline__block .h-fohurt-round__teams .h-teams-name__style:nth-child(2n) .h-gamer-winner::after {
-    border: 1px solid var(--color-purple);
-    border-bottom: none;
-    border-right: none;
-}
-
-.h-main-adrenaline__block .h-fohurt-round__teams .h-teams-name__style .h-gamer-winner::after {
-    border: 1px solid var(--color-purple);
-    border-top: none;
-    border-right: none;
 }
 
 .h-main-adrenaline__block .h-rounds-info__main {
@@ -3096,10 +2993,6 @@
     margin: 0 96px 0 97px;
 }
 
-.h-main-adrenaline__block .scrollbar::-webkit-scrollbar-thumb {
-    background: var(--color-purple);
-}
-
 .h-main-adrenaline__block .h-timetables-participants__list {
     width: 47%;
 }
@@ -3127,7 +3020,7 @@ color: #FFFFFF;
     width: 113px;
 }
 .h-adrenaline-game__details--done{
-    background: #8044FF;
+    background: var(--color-global);
 box-shadow: 0px 4px 4px rgba(22, 25, 28, 0.37);
 border-radius: 4px;
 width: 26px;
@@ -3141,8 +3034,6 @@ text-align: center;
 }
 
 .h-main-adrenaline__block .date-form {
-    background: linear-gradient(263.39deg, #533163 -3.15%, #69009B 97.3%);
-    opacity: 0.78;
     border-radius: 4px;
     width: 25%;
     padding: 10px 25px;
@@ -3157,7 +3048,6 @@ text-align: center;
 
 .h-main-adrenaline__block .h-timetables-page {
     width: 75%;
-    background: linear-gradient(254.67deg, #533163 -3.15%, #69009B 97.3%);
     border-radius: 4px;
 }
 
@@ -3266,7 +3156,6 @@ text-align: center;
     width: 100%;
     min-height: 186px;
     padding: 0 31px 0 40px;
-    border: 1px solid var(--color-purple);
     margin-top: 20px;
     border-radius: var(--border-radius);
     background: linear-gradient(0deg, rgba(6, 38, 32, 0.81), rgba(6, 38, 32, 0.81)), 
@@ -3274,6 +3163,7 @@ text-align: center;
 .h-premium-esport__img{
     width: 83px;
     height: 80px;
+    margin-right: 20px;
 }
 .h-premium-esport__img img{
     object-fit: cover;
@@ -3284,10 +3174,8 @@ text-align: center;
 .h-premium-esport__block h2 {
     font-size: 36px;
     color: #FFFFFF;
-    margin-left: 20px;
 }
 .h-premium-esport__btn .h-regulation-btn button{
-    background: var(--color-purple);
     padding: 12px 14px;
 }
 .h-main-adrenaline__block .h-adrenaline-participants__block{
@@ -3295,14 +3183,6 @@ text-align: center;
 }
 .h-adrenaline-participants__block .h-regulations-rules__block {
     width: 100%;
-}
-
-.h-adrenaline-participants__block .h-regulations-list__section li:before {
-    background-color: white;
-}
-
-.h-adrenaline-participants__block .h-regulations-list__section li {
-    opacity: 1;
 }
 
 .h-adrenaline-rules {
@@ -3328,18 +3208,20 @@ text-align: center;
 
 .h-adrenaline-rules__text--info {
     padding: 11.5px 22px;
-    background-color: #7B4CB6;
+    background-color: rgba(93,163,135, 0.3);
+}
+.h-adrenaline-general {
+    background-color: var(--color-global);
+}
+.h-adrenaline-second{
+    background-color: rgba(93,163,135, 0.7);
 }
 
 .h-adrenaline-rules__text--info p {
     font-size: 16px;
     color: #FFFFFF;
 }
-.h-premium-footer{
-    border-top: 1px solid var(--color-purple);
+.h-rules-text__details {
+    height: 100%;
 }
-.h-premium-footer .h-footer-pages ul li a:hover {
-    color: var(--color-purple);
-}
-
 /*=================-ADRENALINERUSH-STYLE-END-=====================*/
