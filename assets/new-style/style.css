@@ -2789,13 +2789,10 @@
 .h-subscription-modal__content {
     padding: 17px 13px 16px;
 }
-
-.h-subscription-modal .h-modal-container {
-    position: relative;
+.h-subscription-modal__block{
+    background-image: url("../new-img/modal/modalbg.png");
 }
-
-
-.h-subscription-modal .h-modal-container:after {
+.h-subscription-modal__block:after {
     position: absolute;
     content: "";
     height: 1px;
@@ -2806,7 +2803,7 @@
     left: 0;
 }
 
-.h-subscription-modal__content .h-title-modal {
+.h-subscription-modal__title h2 {
     font-weight: 900;
     font-size: 24px;
     color: #FFFFFF;
@@ -2851,10 +2848,11 @@
     border-radius: 4px;
     padding: 13px 20px;
     width: 100%;
+        color: white;
     margin-bottom: 24px;
 }
 
-.h-subscription-modal__info .h-gamelix-platinum__btn button {
+.h-subscription-modal__btn button {
     padding: 11px 0 14px;
     max-width: 285px;
     margin: 0 auto;
@@ -2906,9 +2904,6 @@
     top: 9px;
 }
 
-.h-referral-modal__info .h-modal-password input {
-    text-align: center;
-}
 
 /*=================-REFERRAL-MODAL-STYLE-END-=====================*/
 /*================-ADRENALINERUSH-STYLE-START-====================*/
