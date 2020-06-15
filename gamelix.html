@@ -31,16 +31,16 @@
    <div class="h-wrapper">
       <!-- ====================== -HTML5-HEADER-START- ====================== -->
       <header class="h-header">
-         <div class="h-header-block d_flex j_content_between a_items_center">
-            <div class="h-main-logo d_flex j_content_center a_items_center">
+         <div class="h-header-block d-flex j-content-between a-items-center">
+            <div class="h-main-logo d-flex j-content-center a-items-center">
                <div class="h-main-logo__background"></div>
                <a href="#">
                   <img src="assets/new-img/logo/logo.png" alt="esparea" />
                </a>
             </div>
-            <nav class="h-header-menu d_flex j_content_between a_items_center">
-               <div class="h-header-menu__list d_flex j_content_between a_items_center">
-                  <ul class="d_flex a_items_center j_content_between">
+            <nav class="h-header-menu d-flex j-content-between a-items-center">
+               <div class="h-header-menu__list d-flex j-content-between a-items-center">
+                  <ul class="d-flex a-items-center j-content-between">
                      <li>
                         <a href="#">
                            <i class="icon icon-coin"></i>
@@ -61,22 +61,21 @@
                      </li>
                   </ul>
                </div>
-               <div class="h-menu-personal__info d_flex j_content_between a_items_center">
+               <div class="h-menu-personal__info d-flex j-content-between a-items-center">
                   <div class="h-menu-help__info">
-                     <a href="#" class="d_flex a_items_center j_content_center">
+                     <a href="#" class="d-flex a-items-center j-content-center">
                         <i class="icon icon-alert"></i>
                      </a>
                   </div>
                   <div class="h-menu-dropdown dropdown">
                      <div class="h-menu-dropdown-btn dropdown-click__open window-click">
-                        <button class="d_flex a_items_center">
+                        <button class="d-flex a-items-center">
                            <i class="icon icon-person"></i>
                            Вслед за гудроном
                            <i class="icon icon-bottom"></i>
                         </button>
                      </div>
-                     <div class="h-menu-dropdown__info dropdown-modal bg-cover"
-                        style="background-image: url('assets/new-img/header/menubg.jpg');">
+                     <div class="h-menu-dropdown__info dropdown-modal bg-cover">
                         <div class="parent">
                            <div class="links">
                               <ul>
@@ -96,45 +95,45 @@
       <!-- ======================= -HTML5-HEADER-END- ======================= -->
       <!-- ====================== -HTML5-SIDEBAR-START- ====================== -->
       <main class="h-main-content">
-         <div class="h-main-content__block d_flex j_content_between">
+         <div class="h-main-content__block d-flex j-content-between">
             <div class="h-sidebar-menu">
-               <div class="h-left-sidebar scrollbar parent d_flex f_direction_column j_content_between">
+               <div class="h-left-sidebar scrollbar parent d-flex f-direction-column j-content-between">
                   <div class="h-left-sidebar__links links">
                      <ul>
                         <li class="h-left-sidebar__links--active active">
-                           <a href="#" class="d_flex a_items_center">
+                           <a href="#" class="d-flex a-items-center">
                               <i class="icon icon-home"></i>
                               <span>Главная</span>
                            </a>
                         </li>
                         <li>
-                           <a href="#" class="d_flex a_items_center">
+                           <a href="#" class="d-flex a-items-center">
                               <i class="icon icon-team"></i>
                               <span>Команды</span>
                            </a>
                         </li>
                         <li>
-                           <a href="#" class="d_flex a_items_center">
+                           <a href="#" class="d-flex a-items-center">
                               <i class="icon icon-matches"></i>
                               <span class="active">Турниры</span>
                            </a>
                         </li>
                         <li>
-                           <a href="#" class="d_flex a_items_center">
+                           <a href="#" class="d-flex a-items-center">
                               <i class="icon icon-gamesvg"></i>
                               <span>Матчи</span>
                            </a>
                         </li>
                         <li>
-                           <a href="#" class="d_flex a_items_center">
+                           <a href="#" class="d-flex a-items-center">
                               <i class="icon icon-cup"></i>
                               <span>Лига</span>
                            </a>
                         </li>
                      </ul>
                   </div>
-                  <div class="left-sidebar__open left-sidebar__close d_flex a_items_center">
-                     <i class="icon icon-back d_flex a_items_center"></i>
+                  <div class="left-sidebar__open left-sidebar__close d-flex a-items-center">
+                     <i class="icon icon-back d-flex a-items-center"></i>
                      <span>Свернуть</span>
                   </div>
                </div>
@@ -143,19 +142,35 @@
             <div class="h-main-section">
                <div class="h-container">
                   <div class="h-informations-main h-registrations-main">
-                     <div class="h-information-dask__games--winners d_flex j_content_between f_wrap">
+                     <div class="h-information-dask__games--winners d-flex j-content-between f-wrap">
                         <div class="h-gamelix-series">
                            <div class="h-gamelix-series__js">
                               <div class="h-gamelix-slide__js">
                                  <div class="h-gamelix-slider__block bg-cover"
-                                    style="background-image: url('assets/new-img/informations/game-timetable.png')" ;>
+                                    >
                                     <div class="h-gamelix-slider__info">
                                        <span>Еженедельный турнир</span>
                                        <h2>Gamelix series</h2>
                                        <p>Одиночный турнир по дисциплине Dota 2 проводится каждую неделю. Матчи проходят
                                           по
                                           олимпийской системе до одной победы.</p>
-                                       <div class="h-regulation-btn btn">
+                                       <div class="h-regulation-btn h-gamelix__btn btn">
+                                          <button>Участвовать</button>
+                                       </div>
+                                       
+                                    </div>
+                                 </div>
+                              </div>
+                              <!-- <div class="h-gamelix-slide__js">
+                                 <div class="h-gamelix-slider__block bg-cover"
+                                   >
+                                    <div class="h-gamelix-slider__info">
+                                       <span>Еженедельный турнир</span>
+                                       <h2>Gamelix series</h2>
+                                       <p>Одиночный турнир по дисциплине Dota 2 проводится каждую неделю. Матчи проходят
+                                          по
+                                          олимпийской системе до одной победы.</p>
+                                       <div class="h-regulation-btn h-gamelix__btn btn">
                                           <button>Участвовать</button>
                                        </div>
                                     </div>
@@ -163,43 +178,28 @@
                               </div>
                               <div class="h-gamelix-slide__js">
                                  <div class="h-gamelix-slider__block bg-cover"
-                                    style="background-image: url('assets/new-img/informations/game-timetable.png')" ;>
+                                   >
                                     <div class="h-gamelix-slider__info">
                                        <span>Еженедельный турнир</span>
                                        <h2>Gamelix series</h2>
                                        <p>Одиночный турнир по дисциплине Dota 2 проводится каждую неделю. Матчи проходят
                                           по
                                           олимпийской системе до одной победы.</p>
-                                       <div class="h-regulation-btn btn">
+                                       <div class="h-regulation-btn h-gamelix__btn btn">
                                           <button>Участвовать</button>
                                        </div>
                                     </div>
                                  </div>
-                              </div>
-                              <div class="h-gamelix-slide__js">
-                                 <div class="h-gamelix-slider__block bg-cover"
-                                    style="background-image: url('assets/new-img/informations/game-timetable.png')" ;>
-                                    <div class="h-gamelix-slider__info">
-                                       <span>Еженедельный турнир</span>
-                                       <h2>Gamelix series</h2>
-                                       <p>Одиночный турнир по дисциплине Dota 2 проводится каждую неделю. Матчи проходят
-                                          по
-                                          олимпийской системе до одной победы.</p>
-                                       <div class="h-regulation-btn btn">
-                                          <button>Участвовать</button>
-                                       </div>
-                                    </div>
-                                 </div>
-                              </div>
+                              </div> -->
                            </div>
                         </div>
                         <div class="h-gamelix-right__block">
                            <div class="h-gamelix-account__info">
-                              <div class="h-gamelix-account__block d_flex j_content_between a_items_center">
+                              <div class="h-gamelix-account__block d-flex j-content-between a-items-center">
                                  <div class="h-gamelix-account__list">
                                     <div
-                                       class="h-gamelix-account__block--list h-gamelix-procent bg-cover d_flex j_content_center a_items_center f_direction_column"
-                                       style="background-image: url('assets/new-img/gamelix/account.png');">
+                                       class="h-gamelix-account__block--list h-gamelix-procent bg-cover d-flex j-content-center a-items-center f-direction-column"
+                                      >
                                        <div class="h-circle-box">
                                           <div class="h-circle-box_content">
                                              <svg>
@@ -208,7 +208,7 @@
                                                 </circle>
                                              </svg>
                                           </div>
-                                          <div class="h-circle-number">
+                                          <div class="h-circle-number h-gamelix-circle">
                                              <p>950</p>
                                              <span>1000</span>
                                           </div>
@@ -218,17 +218,17 @@
                                  </div>
                                  <div class="h-gamelix-account__list">
                                     <div
-                                       class="h-gamelix-account__block--list h-gamelix-number__info bg-cover d_flex a_items_center f_direction_column"
-                                       style="background-image: url('assets/new-img/gamelix/account.png');">
+                                       class="h-gamelix-account__block--list h-gamelix-number__info bg-cover d-flex a-items-center f-direction-column"
+                                      >
                                        <p>45%</p>
                                        <span>Процент побед</span>
                                     </div>
                                  </div>
                                  <div class="h-gamelix-account__list">
                                     <div
-                                       class="h-gamelix-account__block--list h-gamelix-number__info bg-cover d_flex a_items_center f_direction_column"
-                                       style="background-image: url('assets/new-img/gamelix/account.png');">
-                                       <div class="h-gamelix-position d_flex j_content_between a_items_center">
+                                       class="h-gamelix-account__block--list h-gamelix-number__info bg-cover d-flex a-items-center f-direction-column"
+                                      >
+                                       <div class="h-gamelix-position d-flex j-content-between a-items-center">
                                           <p>1</p>
                                           <div class="h-day-info">
                                              <i>+2</i>
@@ -240,26 +240,26 @@
                                  </div>
                                  <div class="h-gamelix-account__list">
                                     <div
-                                       class="h-gamelix-account__block--list h-gamelix-activity__main bg-cover d_flex a_items_center f_direction_column"
-                                       style="background-image: url('assets/new-img/gamelix/account.png');">
-                                       <div class="h-gamelix-activity d_flex j_content_between">
+                                       class="h-gamelix-account__block--list h-gamelix-activity__main bg-cover d-flex a-items-center f-direction-column"
+                                     >
+                                       <div class="h-gamelix-activity d-flex j-content-between">
                                           <div
-                                             class="h-gamelix-activity__list d_flex j_content_between f_direction_column">
+                                             class="h-gamelix-activity__list d-flex j-content-between f-direction-column">
                                              <p>W</p>
                                              <div class="h-high-activity"></div>
                                           </div>
                                           <div
-                                             class="h-gamelix-activity__list d_flex j_content_between f_direction_column">
+                                             class="h-gamelix-activity__list d-flex j-content-between f-direction-column">
                                              <p>L</p>
                                              <div class="h-low-activity"></div>
                                           </div>
                                           <div
-                                             class="h-gamelix-activity__list d_flex j_content_between f_direction_column">
+                                             class="h-gamelix-activity__list d-flex j-content-between f-direction-column">
                                              <p>W</p>
                                              <div class="h-high-activity"></div>
                                           </div>
                                           <div
-                                             class="h-gamelix-activity__list d_flex j_content_between f_direction_column">
+                                             class="h-gamelix-activity__list d-flex j-content-between f-direction-column">
                                              <p>L</p>
                                              <div class="h-low-activity"></div>
                                           </div>
@@ -270,17 +270,16 @@
                               </div>
                            </div>
                            <div class="h-gamelix-games__info">
-                              <div class="h-gamelix-games__block d_flex j_content_between a_items_center">
+                              <div class="h-gamelix-games__block d-flex j-content-between a-items-center">
                                  <div class="h-gamelix-games__list">
-                                    <!-- <div class="h-gamelix-games__details bg-cover"
-                                       style="background-image: url('assets/new-img/gamelix/gameinfo.png');">
+                                    <!-- <div class="h-gamelix-games__details bg-cover">
                                        <div class="h-gamelix-gatty">
                                           <span>Команда</span>
                                           <h4>GattyPotParty</h4>
                                        </div>
                                        <div class="h-gamelix-online">
                                           <span>Онлайн</span>
-                                          <div class="h-gamelix-online__block d_flex j_content_between a_items_center">
+                                          <div class="h-gamelix-online__block d-flex j-content-between a-items-center">
                                              <div class="h-gamelix-online__photos"><img src="assets/new-img/gamelix/online.png
                             " alt="online-accounts"></div>
                                              <div class="h-gamelix-online__photos"><img src="assets/new-img/gamelix/online.png
@@ -293,22 +292,19 @@
                             " alt="online-accounts"></div>
                                           </div>
                                        </div>
-                                    </div>
+                                    </div> -->
 
-                                 </div> -->
-                                 <div class="h-gamelix-games__details h-gamelix-games__change bg-cover"
-                                       style="background-image: url('assets/new-img/gamelix/gameinfo.png');">
+                                <div class="h-gamelix-games__details h-gamelix-games__change bg-cover d-flex f-direction-column j-content-between">
                                           <span>Команда</span>
                                           <p>Ивенты в разы интересней Вместе с вашей бандой !</p>
-                                             <div class="h-regulation-btn btn">
+                                             <div class="h-regulation-btn h-gamelix__btn btn">
                                                 <button>Создать команду</button>
                                              </div>
-                                    </div>
-
-                                 </div>
+                                    </div> 
+                              </div>
                                  <div class="h-gamelix-games__list">
-                                    <!-- <div class="h-gamelix-games__details h-gamelix-league__main bg-cover"
-                                       style="background-image: url('assets/new-img/gamelix/gameinfo.png');">
+                                    <div class="h-gamelix-games__details h-gamelix-league__main bg-cover"
+                                       >
                                        <span>Лига</span>
                                        <div class="h-gamelix-league">
                                           <table>
@@ -330,9 +326,9 @@
                                              </tr>
                                           </table>
                                        </div>
-                                    </div> -->
-                                    <div class="h-gamelix-games__details h-gamelix-league__main--btn bg-cover"
-                                    style="background-image: url('assets/new-img/gamelix/gameinfo.png');">
+                                    </div>
+                                    <!-- <div class="h-gamelix-games__details h-gamelix-league__main--btn bg-cover"
+                                    >
                                     <span>Лига</span>
                                     <div class="h-gamelix-league">
                                        <table>
@@ -346,15 +342,15 @@
                                           </tr>
                                        </table>
                                     </div>
-                                    <div class="h-regulation-btn btn">
+                                    <div class="h-regulation-btn h-gamelix__btn btn">
                                        <button>Учавствовать</button>
                                     </div>
-                                 </div>
+                                 </div> -->
 
                                  </div>
                                  <div class="h-gamelix-games__list">
-                                    <!-- <div class="h-gamelix-games__details h-gamelix-platinum__info bg-cover"
-                                       style="background-image: url('assets/new-img/gamelix/platinium.png');">
+                                    <div class="h-gamelix-games__details h-gamelix-platinum__info bg-cover"
+                                       >
                                        <span>Подписка:</span>
                                        <h4>Platinum</h4>
                                        <p><i>Истекает через:</i> 7 дней</p>
@@ -362,10 +358,10 @@
                                           <button>Продлить</button>
                                        </div>
 
-                                    </div> -->
-                                    <div class="h-gamelix-games__details h-gamelix-platinum__info bg-cover"
-                                    style="background-image: url('assets/new-img/gamelix/platinium.png');">
-                                    <div class="h-gamalix-platinum__second d_flex j_content_between a_items_center">
+                                    </div>
+                                    <!-- <div class="h-gamelix-games__details h-gamelix-platinum__info bg-cover"
+                                  >
+                                    <div class="h-gamalix-platinum__second d-flex j-content-between a-items-center">
                                         <span>Подписка:</span>
                                         <p>7 дней</p>
                                        </div>
@@ -376,7 +372,7 @@
                                        <button>150Р</button>
                                     </div>
 
-                                 </div>
+                                 </div> -->
                                     
 
                                  </div>
@@ -385,61 +381,60 @@
                         </div>
                      </div>
                   </div>
-                  <div class="h-timetables-participants__block h-gamelix-participants">
-                     <div class="h-information-league">
+                  <div class="h-timetables-participants__block h-gamelix-participants__main">
+                     <div class="h-information-league h-gamelix-participants__title">
                         <h2>Активные события</h2>
                      </div>
-                     <div
-                        class="h-timetables-participants__list h-games-activity__main--info d_flex j_content_between f_wrap a_items_end">
+                     <div class="h-timetables-participants__list h-gamelix-participants__block h-games-activity__main--info d-flex j-content-between f-wrap a-items-end">
                         <div class="h-timetables-participants">
                            <div class="h-timetables-participants__info">
                               <h3 class="h-section-h3__title">Турниры</h3>
                               <div class="h-timetables-list">
                                  <div class="h-games-timetable">
-                                    <div class="h-game-details d_flex j_content_between a_items_center bg-cover"
-                                       style="background-image: url('assets/new-img/informations/game-timetable.png');">
+                                    <div class="h-game-details h-gamelix-game__details d-flex j-content-between a-items-center bg-cover"
+                                      >
                                        <div class="h-gamelix-tourney h-gamelix-registration">Gamelix series</div>
                                        <p>Регистрация</p>
                                        <p>Одиночный</p>
-                                       <div class="h-gamelix-tourney__number d_flex j_content_center a_items_center">
+                                       <div class="h-gamelix-tourney__number d-flex j-content-center a-items-center">
                                           <i class="icon icon-person"></i>
                                           <p>1/16</p>
                                        </div>
                                     </div>
-                                    <div class="h-game-details d_flex j_content_between a_items_center bg-cover"
-                                       style="background-image: url('assets/new-img/informations/game-timetable.png');">
+                                    <div class="h-game-details h-gamelix-game__details d-flex j-content-between a-items-center bg-cover"
+                                      >
                                        <div class="h-gamelix-tourney h-gamelix-start">Gamelix series</div>
                                        <p>Начат</p>
                                        <p>Командный</p>
-                                       <div class="h-gamelix-tourney__number d_flex j_content_center  a_items_center">
+                                       <div class="h-gamelix-tourney__number d-flex j-content-center  a-items-center">
                                           <i class="icon icon-person"></i>
                                           <p>1/16</p>
                                        </div>
                                     </div>
-                                    <div class="h-game-details d_flex j_content_between a_items_center bg-cover"
-                                       style="background-image: url('assets/new-img/informations/game-timetable.png');">
+                                    <div class="h-game-details h-gamelix-game__details d-flex j-content-between a-items-center bg-cover"
+                                       >
                                        <div class="h-gamelix-tourney">Gamelix series</div>
                                        <p>Завершен</p>
                                        <p>Командный</p>
-                                       <div class="h-gamelix-tourney__number d_flex j_content_center a_items_center">
+                                       <div class="h-gamelix-tourney__number d-flex j-content-center a-items-center">
                                           <i class="icon icon-person"></i>
                                           <p>1/16</p>
                                        </div>
                                     </div>
-                                    <div class="h-game-details d_flex j_content_between a_items_center bg-cover"
-                                       style="background-image: url('assets/new-img/informations/game-timetable.png');">
+                                    <div class="h-game-details h-gamelix-game__details d-flex j-content-between a-items-center bg-cover"
+                                       >
                                        <div class="h-gamelix-tourney">Gamelix series</div>
                                        <p>Завершен</p>
                                        <p>Командный</p>
-                                       <div class="h-gamelix-tourney__number d_flex j_content_center a_items_center">
+                                       <div class="h-gamelix-tourney__number d-flex j-content-center a-items-center">
                                           <i class="icon icon-person"></i>
                                           <p>1/16</p>
                                        </div>
                                     </div>
                                  </div>
-                                 <div class="h-timetables-date d_flex a_items_center">
-                                    <div class="h-timetables-page d_flex a_items_center j_content_end">
-                                       <div class="h-page-info d_flex a_items_center j_content_between">
+                                 <div class="h-timetables-date d-flex a-items-center">
+                                    <div class="h-timetables-page h-gamelix-pages d-flex a-items-center j-content-end">
+                                       <div class="h-page-info d-flex a-items-center j-content-between">
                                           <i class="icon icon-back"></i>
                                           <p>11 из 22</p>
                                           <i class="icon icon-next"></i>
@@ -451,17 +446,17 @@
                         </div>
                         <div class="h-timetables-participants">
                            <div class="h-timetables-participants__info">
-                              <div class="h-gamelix-stub d_flex j_content_between">
-                                 <!-- <h3 class="h-section-h3__title">Рассписание матчей</h3>
-                                 <h4>ЗАГЛУШКА</h4> -->
+                              <div class="h-gamelix-stub d-flex j-content-between">
+                                  <h3 class="h-section-h3__title">Рассписание матчей</h3>
+                                 <h4>ЗАГЛУШКА</h4>
                               </div>
-                              <!-- <div class="h-timetables-list h-participants-list">
+                               <div class="h-timetables-list h-participants-list">
                                  <div class="h-games-timetable h-game-h-participants">
                                     <div
-                                       class="h-game-details h-gamelix-suggest d_flex j_content_between a_items_center bg-cover"
-                                       style="background-image: url('assets/new-img/informations/game-timetable.png');">
+                                       class="h-game-details h-gamelix-suggest d-flex j-content-between a-items-center bg-cover"
+                                       >
                                        <div
-                                          class="h-first-team h-gamelix-star__tournament d_flex j_content_between a_items_center">
+                                          class="h-first-team h-gamelix-star__tournament d-flex j-content-between a-items-center">
                                           <div class="h-game-logo">
                                              <img src="assets/new-img/informations/gamelogo.png" alt="gamelogo" />
                                           </div>
@@ -474,9 +469,9 @@
                                           <button tabindex="0">Предложить время</button>
                                        </div>
                                     </div>
-                                    <div class="h-game-details d_flex j_content_between a_items_center bg-cover"
-                                       style="background-image: url('assets/new-img/informations/game-timetable.png');">
-                                       <div class="h-first-team d_flex j_content_between a_items_center">
+                                    <div class="h-game-details d-flex j-content-between a-items-center bg-cover"
+                                       >
+                                       <div class="h-first-team d-flex j-content-between a-items-center">
                                           <p>Киберволф Челябинск</p>
                                           <div class="h-game-logo">
                                              <img src="assets/new-img/informations/gamelogo.png" alt="gamelogo" />
@@ -493,16 +488,16 @@
                                        <div class="h-game-winner">
                                           <i></i>
                                        </div>
-                                       <div class="h-second-team d_flex j_content_between a_items_center">
+                                       <div class="h-second-team d-flex j-content-between a-items-center">
                                           <div class="h-game-logo">
                                              <img src="assets/new-img/informations/gamelogo.png" alt="gamelogo" />
                                           </div>
                                           <p>Киберволф Челябинск</p>
                                        </div>
                                     </div>
-                                    <div class="h-game-details d_flex j_content_between a_items_center bg-cover"
-                                       style="background-image: url('assets/new-img/informations/game-timetable.png');">
-                                       <div class="h-first-team d_flex j_content_between a_items_center">
+                                    <div class="h-game-details d-flex j-content-between a-items-center bg-cover"
+                                       >
+                                       <div class="h-first-team d-flex j-content-between a-items-center">
                                           <p>Киберволф Челябинск</p>
                                           <div class="h-game-logo">
                                              <img src="assets/new-img/informations/gamelogo.png" alt="gamelogo" />
@@ -518,16 +513,16 @@
                                        <div class="h-game-winner">
                                           <i></i>
                                        </div>
-                                       <div class="h-second-team d_flex j_content_between a_items_center">
+                                       <div class="h-second-team d-flex j-content-between a-items-center">
                                           <div class="h-game-logo">
                                              <img src="assets/new-img/informations/gamelogo.png" alt="gamelogo" />
                                           </div>
                                           <p>Киберволф Челябинск</p>
                                        </div>
                                     </div>
-                                    <div class="h-game-details d_flex j_content_between a_items_center bg-cover"
-                                       style="background-image: url('assets/new-img/informations/game-timetable.png');">
-                                       <div class="h-first-team d_flex j_content_between a_items_center">
+                                    <div class="h-game-details d-flex j-content-between a-items-center bg-cover"
+                                      >
+                                       <div class="h-first-team d-flex j-content-between a-items-center">
                                           <p>Киберволф Челябинск</p>
                                           <div class="h-game-logo">
                                              <img src="assets/new-img/informations/gamelogo.png" alt="gamelogo" />
@@ -543,7 +538,7 @@
                                        <div class="h-game-winner">
                                           <i></i>
                                        </div>
-                                       <div class="h-second-team d_flex j_content_between a_items_center">
+                                       <div class="h-second-team d-flex j-content-between a-items-center">
                                           <div class="h-game-logo">
                                              <img src="assets/new-img/informations/gamelogo.png" alt="gamelogo" />
                                           </div>
@@ -551,17 +546,17 @@
                                        </div>
                                     </div>
                                  </div>
-                                 <div class="h-timetables-date d_flex a_items_center">
-                                    <div class="h-timetables-page d_flex a_items_center j_content_end">
-                                       <div class="h-page-info d_flex a_items_center j_content_between">
+                                 <div class="h-timetables-date d-flex a-items-center">
+                                    <div class="h-timetables-page h-gamelix-pages d-flex a-items-center j-content-center">
+                                       <div class="h-page-info d-flex a-items-center j-content-between">
                                           <i class="icon icon-back"></i>
                                           <p>11 из 22</p>
                                           <i class="icon icon-next"></i>
                                        </div>
                                     </div>
                                  </div>
-                              </div> -->
-                               <div class="h-gamelix-registration__block bg-cover" style="background-image: url('assets/new-img/gamelix/registration.png');">
+                              </div>
+                               <!-- <div class="h-gamelix-registration__block bg-cover">
                     <h3>Идет регистрация
                       Турнира</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, congue sapien, lectus lectus eu faucibus. Odio bibendum feugiat faucibus mi </p>
@@ -569,94 +564,94 @@
                       <button class="btn">Предложить время</button>
                       </div>
                     
-                  </div>
+                  </div> -->
                            </div>
                         </div>
-                        <div class="h-events-friends">
-                           <h3 class="h-section-h3__title">События друзей</h3>
-                           <div class="h-events-friends__block">
-                              <div class="h-events-friends__list d_flex j_content_between a_items_center">
-                                 <div class="h-events-friends__block--list">
-                                    <div class="h-events-friends__info bg-cover"
-                                       style="background-image: url('assets/new-img/gamelix/gameinfo.png');">
-                                       <div class="h-gamelix-friends__profile d_flex a_items_center">
-                                          <div class="h-gamelix-profile__photo">
-                                             <img src="assets/new-img/gamelix/friends.png" alt="friends">
-                                          </div>
-                                          <div class="h-gamelix-profile__name">
-                                             <p>Gamelix</p>
-                                             <span>Недавнее</span>
-                                          </div>
+                     </div>
+                  </div>
+                     <div class="h-events-friends">
+                        <h3 class="h-section-h3__title">События друзей</h3>
+                        <div class="h-events-friends__block">
+                           <div class="h-events-friends__list d-flex j-content-between a-items-center">
+                              <div class="h-events-friends__block--list">
+                                 <div class="h-events-friends__info bg-cover"
+                                    >
+                                    <div class="h-gamelix-friends__profile d-flex a-items-center">
+                                       <div class="h-gamelix-profile__photo">
+                                          <img src="assets/new-img/gamelix/friends.png" alt="friends">
                                        </div>
-                                       <div class="h-gamelix-friends__attainment">
-                                          <p>Принял участие в турнире Gamelix series open cup 🏆</p>
+                                       <div class="h-gamelix-profile__name">
+                                          <p>Gamelix</p>
+                                          <span>Недавнее</span>
                                        </div>
                                     </div>
-                                 </div>
-                                 <div class="h-events-friends__block--list">
-                                    <div class="h-events-friends__info bg-cover"
-                                       style="background-image: url('assets/new-img/gamelix/gameinfo.png');">
-                                       <div class="h-gamelix-friends__profile d_flex a_items_center">
-                                          <div class="h-gamelix-profile__photo">
-                                             <img src="assets/new-img/gamelix/friends.png" alt="friends">
-                                          </div>
-                                          <div class="h-gamelix-profile__name">
-                                             <p>Gamelix</p>
-                                             <span>Недавнее</span>
-                                          </div>
-                                       </div>
-                                       <div class="h-gamelix-friends__attainment">
-                                          <p>Вступил в команду Rampage Team</p>
-                                       </div>
+                                    <div class="h-gamelix-friends__attainment">
+                                       <p>Принял участие в турнире Gamelix series open cup 🏆</p>
                                     </div>
                                  </div>
-                                 <div class="h-events-friends__block--list">
-                                    <div class="h-events-friends__info bg-cover"
-                                       style="background-image: url('assets/new-img/gamelix/gameinfo.png');">
-                                       <div class="h-gamelix-friends__profile d_flex a_items_center">
-                                          <div class="h-gamelix-profile__photo">
-                                             <img src="assets/new-img/gamelix/friends.png" alt="friends">
-                                          </div>
-                                          <div class="h-gamelix-profile__name">
-                                             <p>Gamelix</p>
-                                             <span>Недавнее</span>
-                                          </div>
+                              </div>
+                              <div class="h-events-friends__block--list">
+                                 <div class="h-events-friends__info bg-cover"
+                                   >
+                                    <div class="h-gamelix-friends__profile d-flex a-items-center">
+                                       <div class="h-gamelix-profile__photo">
+                                          <img src="assets/new-img/gamelix/friends.png" alt="friends">
                                        </div>
-                                       <div class="h-gamelix-friends__attainment">
-                                          <p>Теперь в - PRO дивизионе! ⭐️⭐️⭐️</p>
+                                       <div class="h-gamelix-profile__name">
+                                          <p>Gamelix</p>
+                                          <span>Недавнее</span>
                                        </div>
                                     </div>
+                                    <div class="h-gamelix-friends__attainment">
+                                       <p>Вступил в команду Rampage Team</p>
+                                    </div>
                                  </div>
-                                 <div class="h-events-friends__block--list">
-                                    <div class="h-events-friends__info bg-cover"
-                                       style="background-image: url('assets/new-img/gamelix/gameinfo.png');">
-                                       <div class="h-gamelix-friends__profile d_flex a_items_center">
-                                          <div class="h-gamelix-profile__photo">
-                                             <img src="assets/new-img/gamelix/friends.png" alt="friends">
-                                          </div>
-                                          <div class="h-gamelix-profile__name">
-                                             <p>Gamelix</p>
-                                             <span>Недавнее</span>
-                                          </div>
+                              </div>
+                              <div class="h-events-friends__block--list">
+                                 <div class="h-events-friends__info bg-cover"
+                                    >
+                                    <div class="h-gamelix-friends__profile d-flex a-items-center">
+                                       <div class="h-gamelix-profile__photo">
+                                          <img src="assets/new-img/gamelix/friends.png" alt="friends">
                                        </div>
-                                       <div class="h-gamelix-friends__attainment">
-                                          <p>Достиг - PRIME дивизиона!
-                                             Ему стали доступны избранные турниры</p>
+                                       <div class="h-gamelix-profile__name">
+                                          <p>Gamelix</p>
+                                          <span>Недавнее</span>
                                        </div>
+                                    </div>
+                                    <div class="h-gamelix-friends__attainment">
+                                       <p>Теперь в - PRO дивизионе! ⭐️⭐️⭐️</p>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="h-events-friends__block--list">
+                                 <div class="h-events-friends__info bg-cover"
+                                  >
+                                    <div class="h-gamelix-friends__profile d-flex a-items-center">
+                                       <div class="h-gamelix-profile__photo">
+                                          <img src="assets/new-img/gamelix/friends.png" alt="friends">
+                                       </div>
+                                       <div class="h-gamelix-profile__name">
+                                          <p>Gamelix</p>
+                                          <span>Недавнее</span>
+                                       </div>
+                                    </div>
+                                    <div class="h-gamelix-friends__attainment">
+                                       <p>Достиг - PRIME дивизиона!
+                                          Ему стали доступны избранные турниры</p>
                                     </div>
                                  </div>
                               </div>
                            </div>
                         </div>
                      </div>
-
                      <div class="h-read-more">
                         <h3 class="h-section-h3__title">Новости</h3>
                         <div class="h-news-block">
-                           <div class="h-news-block__list d_flex j_content_between a_items_center f_wrap">
+                           <div class="h-news-block__list d-flex j-content-between a-items-center f-wrap">
                               <div class="h-news-list">
                                  <div class="h-news-main__info bg-cover"
-                                    style="background-image: url('assets/new-img/news/news-background.png');">
+                                    >
                                     <div class="h-news-list__img">
                                        <img src="assets/new-img/news/news-img.png" alt="info-img" />
                                     </div>
@@ -676,7 +671,7 @@
                               </div>
                               <div class="h-news-list">
                                  <div class="h-news-main__info bg-cover"
-                                    style="background-image: url('assets/new-img/news/news-background.png');">
+                                   >
                                     <div class="h-news-list__img">
                                        <img src="assets/new-img/news/news-img.png" alt="info-img" />
                                     </div>
@@ -696,7 +691,7 @@
                               </div>
                               <div class="h-news-list">
                                  <div class="h-news-main__info bg-cover"
-                                    style="background-image: url('assets/new-img/news/news-background.png');">
+                                  >
                                     <div class="h-news-list__img">
                                        <img src="assets/new-img/news/news-img.png" alt="info-img" />
                                     </div>
@@ -716,7 +711,7 @@
                               </div>
                               <div class="h-news-list">
                                  <div class="h-news-main__info bg-cover"
-                                    style="background-image: url('assets/new-img/news/news-background.png');">
+                                    >
                                     <div class="h-news-list__img">
                                        <img src="assets/new-img/news/news-img.png" alt="info-img" />
                                     </div>
@@ -736,7 +731,26 @@
                               </div>
                               <div class="h-news-list">
                                  <div class="h-news-main__info bg-cover"
-                                    style="background-image: url('assets/new-img/news/news-background.png');">
+                                   >
+                                    <div class="h-news-list__img">
+                                       <img src="assets/new-img/news/news-img.png" alt="info-img" />
+                                    </div>
+
+                                    <div class="h-news-list__text">
+                                       <h4>Негры из риса</h4>
+                                       <p>
+                                          t. Dictumst egestas orci fringilla malesuada ac
+                                          auctor. Mattis ullamcorper lobortis mattis aliquam
+                                          pellentesque amet penatibus mattis.
+                                       </p>
+                                       <a href="#">
+                                          <span>Подробнее</span>
+                                          <i class="icon icon-next"></i></a>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="h-news-list">
+                                 <div class="h-news-main__info bg-cover">
                                     <div class="h-news-list__img">
                                        <img src="assets/new-img/news/news-img.png" alt="info-img" />
                                     </div>
@@ -756,7 +770,7 @@
                               </div>
                               <div class="h-news-list">
                                  <div class="h-news-main__info bg-cover"
-                                    style="background-image: url('assets/new-img/news/news-background.png');">
+                                  >
                                     <div class="h-news-list__img">
                                        <img src="assets/new-img/news/news-img.png" alt="info-img" />
                                     </div>
@@ -776,7 +790,7 @@
                               </div>
                               <div class="h-news-list">
                                  <div class="h-news-main__info bg-cover"
-                                    style="background-image: url('assets/new-img/news/news-background.png');">
+                                  >
                                     <div class="h-news-list__img">
                                        <img src="assets/new-img/news/news-img.png" alt="info-img" />
                                     </div>
@@ -796,7 +810,7 @@
                               </div>
                               <div class="h-news-list">
                                  <div class="h-news-main__info bg-cover"
-                                    style="background-image: url('assets/new-img/news/news-background.png');">
+                                   >
                                     <div class="h-news-list__img">
                                        <img src="assets/new-img/news/news-img.png" alt="info-img" />
                                     </div>
@@ -816,27 +830,7 @@
                               </div>
                               <div class="h-news-list">
                                  <div class="h-news-main__info bg-cover"
-                                    style="background-image: url('assets/new-img/news/news-background.png');">
-                                    <div class="h-news-list__img">
-                                       <img src="assets/new-img/news/news-img.png" alt="info-img" />
-                                    </div>
-
-                                    <div class="h-news-list__text">
-                                       <h4>Негры из риса</h4>
-                                       <p>
-                                          t. Dictumst egestas orci fringilla malesuada ac
-                                          auctor. Mattis ullamcorper lobortis mattis aliquam
-                                          pellentesque amet penatibus mattis.
-                                       </p>
-                                       <a href="#">
-                                          <span>Подробнее</span>
-                                          <i class="icon icon-next"></i></a>
-                                    </div>
-                                 </div>
-                              </div>
-                              <div class="h-news-list">
-                                 <div class="h-news-main__info bg-cover"
-                                    style="background-image: url('assets/new-img/news/news-background.png');">
+                                   >
                                     <div class="h-news-list__img">
                                        <img src="assets/new-img/news/news-img.png" alt="info-img" />
                                     </div>
@@ -859,14 +853,14 @@
                      </div>
                      <div class="h-stream-video">
                         <div class="h-stream-video__block">
-                           <div class="h-stream-video__list d_flex j_content_between a_items_center f_wrap">
+                           <div class="h-stream-video__list d-flex j-content-between a-items-center f-wrap">
                               <div class="h-video-info-block">
                                  <h3 class="h-section-h3__title">Стрим номер 29</h3>
                                  <div class="h-video-info">
                                     <video src="assets/new-img/informations/video1.mp4"
                                        poster="assets/new-img/informations/videoposter.png" class="h-video"
                                        preload="none"></video>
-                                    <div class="video-play__bg d_flex a_items_center j_content_center">
+                                    <div class="video-play__bg d-flex a-items-center j-content-center">
                                        <i class="icon icon-play"></i>
                                     </div>
                                  </div>
@@ -877,7 +871,7 @@
                                     <video src="assets/new-img/informations/video1.mp4"
                                        poster="assets/new-img/informations/videoposter.png" class="h-video"
                                        preload="none"></video>
-                                    <div class="video-play__bg d_flex a_items_center j_content_center">
+                                    <div class="video-play__bg d-flex a-items-center j-content-center">
                                        <i class="icon icon-play"></i>
                                     </div>
                                  </div>
@@ -888,7 +882,7 @@
                                     <video src="assets/new-img/informations/video1.mp4"
                                        poster="assets/new-img/informations/videoposter.png" class="h-video"
                                        preload="none"></video>
-                                    <div class="video-play__bg d_flex a_items_center j_content_center">
+                                    <div class="video-play__bg d-flex a-items-center j-content-center">
                                        <i class="icon icon-play"></i>
                                     </div>
                                  </div>
@@ -899,7 +893,7 @@
                                     <video src="assets/new-img/informations/video1.mp4"
                                        poster="assets/new-img/informations/videoposter.png" class="h-video"
                                        preload="none"></video>
-                                    <div class="video-play__bg d_flex a_items_center j_content_center">
+                                    <div class="video-play__bg d-flex a-items-center j-content-center">
                                        <i class="icon icon-play"></i>
                                     </div>
                                  </div>
@@ -911,14 +905,13 @@
                </div>
             </div>
             <!-- ====================== -HTML5-GAMELIX-END- ===================== -->
-         </div>
       </main>
       <!-- ====================== -HTML5-SIDEBAR-END- ====================== -->
       <!-- ====================== -HTML5-FOOTER-START- ===================== -->
       <footer class="h-footer">
-         <div class="h-footer-block d_flex j_content_between a_items_center">
+         <div class="h-footer-block d-flex j-content-between a-items-center">
             <div class="h-footer-pages">
-               <ul class="d_flex j_content_between a_items_center">
+               <ul class="d-flex j-content-between a-items-center">
                   <li><a href="#">Условия использования</a></li>
                   <li><a href="#">Поддержка</a></li>
                   <li><a href="#">Политика конфиденциальности</a></li>
