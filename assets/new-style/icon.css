@@ -28,6 +28,13 @@
 .icon{
   display: inline-block;
 }
+
+.icon-Vector-11:before {
+  content: "\e927";
+}
+.icon-Vector-12:before {
+  content: "\e929";
+}
 .icon-gamesvg:before {
   content: "\e915";
 }
@@ -41,22 +48,22 @@
   content: "\e913";
 }
 .icon-winner:before {
-  content: "\e912";
+  content: "\e919";
 }
 .icon-datelogo:before {
-  content: "\e911";
+  content: "\e917";
 }
 .icon-vkmedia:before {
-  content: "\e910";
+  content: "\e918";
 }
 .icon-right-arrow:before {
-  content: "\e90e";
+  content: "\e912";
 }
 .icon-content-home:before {
   content: "\e90d";
 }
 .icon-close:before {
-  content: "\e90c";
+  content: "\e926";
 }
 .icon-bottom:before {
   content: "\e90a";
@@ -68,33 +75,32 @@
   content: "\e90f";
 }
 .icon-alert:before {
-  content: "\e906";
+  content: "\e91f";
 }
 .icon-person:before {
-  content: "\e907";
+  content: "\e920";
 }
 .icon-signin-button:before {
-  content: "\e909";
+  content: "\e91c";
 }
 .icon-coin:before {
-  content: "\e900";
+  content: "\e91b";
 }
 .icon-message:before {
-  content: "\e901";
+  content: "\e91a";
 }
 .icon-friends:before {
-  content: "\e902";
+  content: "\e909";
 }
 .icon-home:before {
-  content: "\e903";
-}
-.icon-team:before {
-  content: "\e904";
-}
-.icon-cup:before {
-  content: "\e905";
-}
-.icon-matches:before {
   content: "\e908";
 }
-
+.icon-team:before {
+  content: "\e907";
+}
+.icon-cup:before {
+  content: "\e906";
+}
+.icon-matches:before {
+  content: "\e92a";
+  }
