@@ -175,6 +175,10 @@
     position: relative;
 }
 
+.select-box {
+    background-image: url('../new-img/header/menubg.jpg');
+}
+
 .dropdown-modal__open .h-menu-dropdown-btn button {
     background-color: var(--color-global);
 }
@@ -214,6 +218,7 @@
 }
 
 .h-menu-dropdown__info {
+    background-image: url('../new-img/header/menubg.jpg');
     position: absolute;
     width: 100%;
     border-bottom-left-radius: 4px;
@@ -568,6 +573,7 @@
 }
 
 .h-news-main__info {
+    background-image: url('../new-img/news/news-background.png');
     padding: 5px 5px 16px;
     border-radius: var(--border-radius);
 }
@@ -575,14 +581,13 @@
 .h-news-list__img {
     width: 100%;
     height: 131px;
-    border-radius: var(--border-radius);
     object-fit: cover;
 }
 
 .h-news-list__img img {
     width: 100%;
     height: 100%;
-    border-radius: var(--border-radius);
+    border-radius: 6px;
 }
 
 .h-news-list__text {
@@ -675,6 +680,7 @@
 /*=======================-FOOTER-STYLE-END-=========================*/
 /*===================-INFORMATIONS-STYLE-START-=====================*/
 .h-informations-main__img {
+    background-image: url('../new-img/informations/infobanner-img.png');
     height: 373px;
     border-radius: var(--border-radius);
     margin-top: 21px;
@@ -725,7 +731,6 @@
     background-color: transparent;
     border-radius: var(--border-radius);
     cursor: pointer;
-
 }
 
 .h-filter-dropdown .icon-bottom {
@@ -793,6 +798,7 @@
 }
 
 .h-filter-section__block {
+    background-image: url('../new-img//informations/filterbg.png');
     width: 100%;
     padding: 19px 0 17px 19px;
     border-radius: var(--border-radius);
@@ -815,6 +821,7 @@
 }
 
 .h-regulations-rules__block {
+    background-image: url('../new-img/informations/filterbg.png');
     width: 78.7%;
     height: 310px;
     padding: 13px 0 9px;
@@ -909,8 +916,9 @@
 }
 
 .h-game-details {
+    background-image: url('../new-img/informations/game-timetable.png');
     height: 60px;
-    padding: 0 11px;
+    padding: 4px 11px;
     border-radius: var(--border-radius);
 }
 
@@ -1030,7 +1038,6 @@
     top: 50%;
     transform: translateY(-50%);
 }
-
 
 .ui-datepicker {
     width: 201px;
@@ -1205,7 +1212,7 @@
     background-color: transparent;
 }
 
-.h-informations-main .h-read-more {
+.h-read-more {
     margin: 16px 0 25px;
 }
 
@@ -1290,6 +1297,7 @@
     height: 78px;
     margin: 11px 0 33px;
     padding: 0 23px;
+    background-image: url('../new-img/registration/registrationbg.png');
 }
 
 .h-registrations-main__img h1 {
@@ -1317,6 +1325,7 @@
 }
 
 .h-rounds-info__main {
+    background-image: url('../new-img/registration/winnerblock.png');
     overflow-y: auto;
     /* direction: rtl; */
     height: 232px;
@@ -1511,15 +1520,6 @@
     content: none;
 }
 
-/* ========================================================= */
-/* ========================================================= */
-/* ========================================================= */
-/* ========================================================= */
-/* ========================================================= */
-/* ========================================================= */
-/* ========================================================= */
-/* ========================================================= */
-
 .h-progress-block,
 .h-stage-data__block {
     width: 15.38%;
@@ -1527,6 +1527,7 @@
 
 
 .h-progress-list {
+    background-image: url('../new-img/registration/progressbg.png');
     height: 232px;
     border-radius: var(--border-radius);
 }
@@ -1546,7 +1547,6 @@
 .h-circle-box_content {
     box-shadow: inset 0px 0px 0px 8px #c0efd5;
     border-radius: 50%;
-
 }
 
 .h-circle-box_content svg {
@@ -1579,6 +1579,7 @@
 }
 
 .h-stage-data-list {
+    background-image: url('../new-img//informations/filterbg.png');
     height: 73.1px;
     border-radius: var(--border-radius);
     padding-left: 14.7px;
@@ -1849,12 +1850,16 @@
 }
 
 .h-gamelix-slider__block {
+    height: 100%;
+    border: 1px solid #9FE7BC;
     border-radius: var(--border-radius);
+    padding: 30px 20px 0 18px;
+    background-image: url('../new-img/informations/game-timetable.png');
 }
 
 .h-gamelix-slider__info {
     width: 100%;
-    padding: 30px 20px 53px 18px;
+    height: calc(100% - 50px);
 }
 
 .h-gamelix-slider__info span {
@@ -1875,33 +1880,35 @@
     margin: 30px 0 37px;
 }
 
-.h-gamelix-slider__info .h-regulation-btn button {
+.h-gamelix__btn button {
     width: 100%;
     box-shadow: none;
 }
 
-.h-gamelix-series__js .slick-dots {
-    bottom: 10px;
-    text-align: left;
-    left: 4%;
+.h-gamelix-slider__block .dots {
+   margin-top: 15px;
 }
 
-.h-gamelix-series__js .slick-dots li button {
+.h-gamelix-slider__block .dots li{
+    margin: 0 3px;
+}
+
+.h-gamelix-slider__block .dots li button {
     width: 14px;
     height: 14px;
     border: 1px solid #ffffff;
     background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 100%;
+    padding: 1px;
 }
 
-.h-gamelix-series__js .slick-dots li.slick-active button:before {
+.h-gamelix-slider__block .dots li.active button:before {
     content: "";
-    position: absolute;
-    width: 10px;
-    height: 10px;
+    display: block;
+    width: 100%;
+    height: 100%;
     background-color: var(--color-global);
     border-radius: 50%;
-    top: 9%;
-    left: 9%;
 }
 
 .h-gamelix-right__block {
@@ -1922,6 +1929,10 @@
     height: 184px;
 }
 
+.h-gamelix-account__block--list {
+    background-image: url('../new-img/gamelix/account.png');
+}
+
 .h-gamelix-account__block--list .h-circle-box {
     margin-bottom: 4px;
 }
@@ -1936,13 +1947,13 @@
     padding-top: 35px;
 }
 
-.h-gamelix-account__block--list .h-circle-number p {
+.h-gamelix-circle p {
     font-size: 36px;
     position: relative;
     text-align: center;
 }
 
-.h-gamelix-account__block--list .h-circle-number p:before {
+.h-gamelix-circle p:before {
     content: "";
     position: absolute;
     width: 72px;
@@ -1953,7 +1964,7 @@
     left: 4px;
 }
 
-.h-gamelix-account__block--list .h-circle-number span {
+.h-gamelix-circle span {
     font-size: 36px;
     color: #FFFFFF;
     opacity: 0.4;
@@ -2061,18 +2072,23 @@
     height: 187px;
 }
 
-.h-gamelix-games__details {
-    height: 100%;
-}
 
 .h-gamelix-games__details {
     padding: 15px 16px 14px 18px;
     border-radius: var(--border-radius);
+    background-image: url('../new-img/gamelix/gameinfo.png');
+    height: 100%;
 }
 
 .h-gamelix-games__details span {
     font-size: 16px;
     color: #09E18B;
+}
+
+.h-gamelix-games__change p {
+    font-size: 17px;
+    line-height: 158%;
+    color: #FFFFFF;
 }
 
 .h-gamelix-gatty {
@@ -2148,6 +2164,7 @@
 }
 
 .h-gamelix-platinum__info {
+    background-image: url('../new-img/gamelix/platinium.png');
     border: 1px solid #694CA7;
     box-sizing: border-box;
 }
@@ -2184,16 +2201,16 @@
     opacity: 0.7;
 }
 
-.h-gamelix-participants .h-information-league {
+.h-gamelix-participants__title {
     margin-bottom: 20px;
 }
 
-.h-gamelix-participants .h-timetables-participants__info h3 {
-    opacity: 0.7;
+.h-gamelix-participants__main {
+    margin-top: 20px;
 }
 
-.h-games-timetable .h-game-details {
-    padding: 4px 11px;
+.h-gamelix-participants__block h3 {
+    opacity: 0.7;
 }
 
 .h-gamelix-tourney {
@@ -2257,11 +2274,11 @@
     color: #FFFFFF;
 }
 
-.h-games-activity__main--info .h-timetables-page {
+.h-gamelix-pages {
     width: 100%;
 }
 
-.h-games-activity__main--info .h-page-info {
+.h-gamelix-pages .h-page-info {
     margin: 0 auto;
 }
 
@@ -2318,7 +2335,7 @@
 }
 
 .h-events-friends {
-    margin: 41px 0 30px;
+    margin: 41px 0 15px;
 }
 
 .h-events-friends h3 {
@@ -2335,6 +2352,7 @@
 }
 
 .h-events-friends__info {
+    background-image: url('../new-img/gamelix/gameinfo.png');
     padding: 15px;
     height: 140px;
     border-radius: var(--border-radius);
@@ -2374,7 +2392,8 @@
 }
 
 .h-gamelix-registration__block {
-    padding: 45px 0 43px 65px;
+    background-image: url('../new-img/gamelix/registration.png');
+    padding: 45px 65px 42px 40px;
     min-height: 288px;
     border-radius: var(--border-radius);
 
@@ -2410,23 +2429,27 @@
 
 /*=======================-GAMELIX-STYLE-END-========================*/
 /*===================-PARTICIPATION-STYLE-START-====================*/
-.h-gamelix-participation .h-gamelix-slider__block {
+.h-gamelix-participation__block {
     box-shadow: 0px 2px 2px rgba(5, 24, 46, 0.25);
 }
 
-.h-participantion-number {
+.h-gamelix-green__block {
+    background-image: url('../new-img/participation/participation.png');
+}
+
+.h-participation-number {
     font-weight: 500;
     font-size: 72px;
     color: #FFFFFF;
     text-align: center;
 }
 
-.h-gamelix-ready__acount .h-participantion-number {
+.h-gamelix-ready__account {
     color: rgba(255, 255, 255, 0.2);
     position: relative;
 }
 
-.h-gamelix-ready__acount .h-participantion-number .icon-tick {
+.h-participation-number .icon-tick {
     position: absolute;
     color: #62C89F;
     font-size: 28px;
@@ -2437,6 +2460,10 @@
 
 .h-participation-account__info {
     padding: 0 14px;
+}
+
+.h-participation__premium {
+    background-image: url('../new-img/participation/get.png');
 }
 
 .h-participation-account__info p {
@@ -2451,7 +2478,6 @@
 }
 
 .h-participation-btn,
-.h-participation-btn .h-regulation-btn,
 .h-participation-btn .h-regulation-btn button {
     width: 100%;
 }
@@ -2468,7 +2494,8 @@
     font-size: 16px;
     line-height: 160%;
     color: #FFFFFF;
-    margin: 10px 0;
+    margin-bottom: auto;
+    margin-top: 10px;
 }
 
 .h-gamelix-participation__information a {
@@ -2478,7 +2505,7 @@
     color: #00FFD1;
 }
 
-.h-gamelix-participation__activity .h-regulation-btn button {
+.h-gamelix-participation__btn button {
     padding: 10px 7px;
 }
 
@@ -2486,6 +2513,10 @@
     font-size: 13px;
     color: #FFFFFF;
     margin-bottom: 2px;
+}
+
+.h-gamelix-participation__activity {
+    padding: 5px 10px;
 }
 
 .h-gamelix-partocipation__activity--main .icon-datelogo {
@@ -2592,26 +2623,26 @@
     margin-top: 5px;
 }
 
-
-
 /*====================-PARTICIPATION-STYLE-END-=====================*/
 
 /*================-AVAILABLE-TOURNAMENTS-STYLE-START-===============*/
-.h-available-tournaments .h-informations-main__img h3 {
+.h-available-tournaments__bg {
+    background-image: url('../new-img/available-tourney/available-tourney.png');
+    padding: 0 35px;
+}
+
+.h-available-tournaments__bg h3 {
     font-weight: 500;
     font-size: 36px;
     line-height: 116%;
     margin-bottom: 35px;
     color: #FFFFFF;
+    text-align: left;
 }
 
-.h-available-tournaments .h-regulation-btn button {
+.h-available-tournaments__btn button {
     width: 255px;
     height: 43px;
-}
-
-.h-available-tournaments__bg {
-    padding: 0 35px;
 }
 
 .single-video__block {
@@ -2662,30 +2693,25 @@
     z-index: 999;
 }
 
-
-.h-available-tournaments .h-gamelix-games__details span {
+.h-available-tournaments__details span {
     font-weight: bold;
 }
 
-.h-available-tournaments .h-gamelix-games__details p {
-    margin: 10px 0 15px;
-}
-
-.h-available-tournaments .h-gamelix-games__details span i {
+.h-available-tournaments__details span i {
     color: grey;
     margin-left: 10px;
     font-size: 22px;
 }
 
-.h-gamelix-games__change p {
-    margin: 20px 0;
-    font-size: 17px;
-    line-height: 158%;
+.h-available-tournaments__list--faq p {
+    margin: 12px 0;
+    font-size: 16px;
+    line-height: 140%;
     color: #FFFFFF;
 }
 
-.h-gamelix-games__change .h-regulation-btn button {
-    width: 100%;
+.h-available-tournaments__list--faq button {
+    width: 190px;
     padding: 14px 9px;
 }
 
@@ -2702,29 +2728,26 @@
     font-weight: normal;
 }
 
-.h-available-tournaments__info .h-available-tournaments__list {
+.h-available-tournaments__list {
+    background-image: url('../new-img/available-tourney/available.png');
     padding: 15px 16px 14px 18px;
     border-radius: var(--border-radius);
     border: 1px solid #9FE7BC;
     box-shadow: 0px 2px 2px rgba(5, 24, 46, 0.25);
 }
 
-.h-available-tournaments__list h3 {
+.h-available-tournaments__list h3,
+.h-available-tournaments__list--faq h3 {
     font-size: 36px;
     font-weight: 500;
     color: #FFFFFF;
-}
-
-.h-available-tournaments__info .h-available-tournaments__list p {
-    width: 550px;
-    margin: 10px 0 15px;
-
 }
 
 .h-available-tournaments__list p {
     font-size: 16px;
     line-height: 140%;
     color: #FFFFFF;
+    margin: 10px 0 15px;
 }
 
 .h-available-tournaments__list .h-regulation-btn {
@@ -2732,28 +2755,21 @@
     justify-content: flex-start;
 }
 
-.h-available-tournaments .h-timetables-participants__info .h-section-h3__title {
+.h-available-tournaments__participants {
     margin-top: 20px;
 }
 
-.h-available-tournaments .h-timetables-participants__info .h-section-h3__title i {
+.h-available-tournaments__participants i {
     color: grey;
     margin-left: 10px;
 }
 
-.h-available-tournaments .h-timetables-page {
+.h-available-tournaments__participants--page {
     width: 100%;
 }
 
-.h-available-tournaments .h-page-info {
-    margin: 0 auto;
-}
 
-.h-available-tournaments .h-gamelix-registration__block {
-    padding: 45px 65px 43px 65px;
-}
-
-.h-available-tournaments .h-gamelix-registration__block h3 {
+.h-available-tournaments__registration h3 {
     font-size: 36px;
 }
 
@@ -2789,9 +2805,11 @@
 .h-subscription-modal__content {
     padding: 17px 13px 16px;
 }
-.h-subscription-modal__block{
+
+.h-subscription-modal__block {
     background-image: url("../new-img/modal/modalbg.png");
 }
+
 .h-subscription-modal__block:after {
     position: absolute;
     content: "";
@@ -2848,7 +2866,7 @@
     border-radius: 4px;
     padding: 13px 20px;
     width: 100%;
-        color: white;
+    color: white;
     margin-bottom: 24px;
 }
 
@@ -2907,25 +2925,21 @@
 
 /*=================-REFERRAL-MODAL-STYLE-END-=====================*/
 /*================-ADRENALINERUSH-STYLE-START-====================*/
-.h-adrenaline-header{
+.h-adrenaline-header {
     border-bottom: 1px solid transparent;
-
 }
 
-.h-adrenalinerush-block .h-menu-dropdown button {
-    border: 1px solid transparent;
-}
-
-.h-main-adrenaline__block .h-registrations-main__img {
+.h-adrenaline__main--img {
+    background-image: url('../new-img/adrenaline/adrenalinerush.png');
     background-size: auto;
     border-radius: var(--border-radius);
     background-color: rgba(93, 163, 135, 0.4);
     position: relative;
     border: 1px solid var(--color-global);
-    padding: 0 17px ;
+    padding: 0 17px;
 }
 
-.h-main-adrenaline__block .h-registrations-main__img span {
+.h-adrenaline__main--img span {
     width: 12.4%;
     height: 78px;
 }
@@ -2934,23 +2948,23 @@
     width: 100%;
 }
 
-.h-main-adrenaline__block .h-adrenalinerush-title h2 {
+.h-adrenalinerush-title h2 {
     font-size: 28px;
     line-height: 33px;
     color: #FFFFFF;
 }
 
-.h-main-adrenaline__block .h-adrenalinerush-title p {
+.h-adrenalinerush-title p {
     font-size: 16px;
     line-height: 19px;
     color: rgba(255, 255, 255, 0.7);
 }
 
-.h-main-adrenaline__block .h-adrenalinerush-title:nth-child(2) {
+.h-adrenalinerush-title:nth-child(2) {
     text-align: right;
 }
 
-.h-main-adrenaline__block .h-rounds-info__main {
+.h-adrenaline__rounds {
     padding: 0px 15px 17px 0;
 }
 
@@ -2988,60 +3002,66 @@
     margin: 0 96px 0 97px;
 }
 
-.h-main-adrenaline__block .h-timetables-participants__list {
+.h-adrenaline-timetables {
     width: 47%;
 }
 
-.h-main-adrenaline__block .h-timetables-participants {
+.h-adrenaline-timetables .h-timetables-participants {
     width: 100%;
 }
 
-.h-main-adrenaline__block .h-game-details {
+.h-adrenaline-timetables .h-game-details {
     height: 47px;
 }
-.h-main-adrenaline__block .h-game-details .h-first-team{
+
+.h-adrenaline-timetables .h-game-details .h-first-team {
     width: 134px;
-} 
-.h-main-adrenaline__block .h-game-details .h-game-logo{
+}
+
+.h-adrenaline-timetables .h-game-details .h-game-logo {
     width: 28px;
     height: 29px;
 }
-.h-adrenaline-game__details p{
+
+.h-adrenaline-game__details p {
     font-weight: 500;
-font-size: 16px;
-color: #FFFFFF;
+    font-size: 16px;
+    color: #FFFFFF;
 }
-.h-adrenaline-game__details{
+
+.h-adrenaline-game__details {
     width: 113px;
 }
-.h-adrenaline-game__details--done{
+
+.h-adrenaline-game__details--done {
     background: var(--color-global);
-box-shadow: 0px 4px 4px rgba(22, 25, 28, 0.37);
-border-radius: 4px;
-width: 26px;
-height: 28px;
-text-align: center;
+    box-shadow: 0px 4px 4px rgba(22, 25, 28, 0.37);
+    border-radius: 4px;
+    width: 26px;
+    height: 28px;
+    text-align: center;
     padding: 6px 0;
 }
-.h-adrenaline-game__details--done .icon-bottom{
+
+.h-adrenaline-game__details--done .icon-bottom {
     color: white;
     font-size: 15px;
 }
 
-.h-main-adrenaline__block .date-form {
+.h-adrenaline-timetables .date-form {
     border-radius: 4px;
     width: 25%;
-    padding: 10px 25px;
+    padding: 11px 25px;
 }
 
-.h-main-adrenaline__block .date-form p {
+.h-adrenaline-timetables .date-form p {
     font-weight: bold;
     font-size: 14px;
     color: #FFFFFF;
     text-align: center;
 }
 
-.h-main-adrenaline__block .h-timetables-page {
+.h-adrenaline-timetables .h-timetables-page {
     width: 75%;
     border-radius: 4px;
 }
@@ -3052,6 +3072,7 @@ text-align: center;
 }
 
 .h-adrenaline-second__match {
+    background-image: url('../new-img/adrenaline/second_match.jpg');
     width: 46%;
     padding: 38px 24px 25px;
     border-radius: var(--border-radius);
@@ -3095,16 +3116,6 @@ text-align: center;
     font-size: 16px;
 }
 
-.h-adrenaline-second__match .h-regulation-btn {
-    width: 177px;
-    margin: 0 auto;
-}
-
-.h-adrenaline-second__match .h-regulation-btn button {
-    background: #17D965;
-    padding: 8px 23px 9px;
-}
-
 .h-adrenaline-second__match--info {
     width: 53%;
 }
@@ -3131,6 +3142,7 @@ text-align: center;
 }
 
 .h-adrenaline-match__single--details {
+    background-image: url('../new-img/adrenaline/adrenalinegreen.jpg');
     padding: 15px 5px 15px 14px;
     border-radius: var(--border-radius);
 }
@@ -3148,19 +3160,22 @@ text-align: center;
 }
 
 .h-premium-esport {
+    background-image: url('../new-img/adrenaline/adrenalinebg.jpg');
     width: 100%;
     min-height: 186px;
     padding: 0 31px 0 40px;
     margin-top: 20px;
     border-radius: var(--border-radius);
-    background: linear-gradient(0deg, rgba(6, 38, 32, 0.81), rgba(6, 38, 32, 0.81)), 
+    background: linear-gradient(0deg, rgba(6, 38, 32, 0.81), rgba(6, 38, 32, 0.81)),
 }
-.h-premium-esport__img{
+
+.h-premium-esport__img {
     width: 83px;
     height: 80px;
     margin-right: 20px;
 }
-.h-premium-esport__img img{
+
+.h-premium-esport__img img {
     object-fit: cover;
     width: 100%;
     height: 100%;
@@ -3170,26 +3185,32 @@ text-align: center;
     font-size: 36px;
     color: #FFFFFF;
 }
-.h-premium-esport__btn .h-regulation-btn button{
+
+.h-premium-esport__btn .h-regulation-btn button {
     padding: 12px 14px;
 }
-.h-main-adrenaline__block .h-adrenaline-participants__block{
-    margin: 20px 0  ;
-}
-.h-adrenaline-participants__block .h-regulations-rules__block {
-    width: 100%;
+
+.h-adrenaline-participants__block {
+    margin: 20px 0;
 }
 
 .h-adrenaline-rules {
-    margin: 0 -21px;
+    margin: 0 -20px;
 }
 
-.h-adrenaline-participants__block .h-regulations-rules__block {
-    height: 390px;
+.h-adrenaline-participants__block--list {
+    min-height: 390px;
+    width: 100%;
+    padding: 13px 0 24px;
+
 }
 
-.h-adrenaline-participants__block .h-rules-list .h-rules-text__info {
-    height: 340px;
+.h-adrenaline-participants__rules {
+    height: 100%;
+}
+
+.h-adrenaline-participants__rules .h-rules-text__info {
+    height: 100%;
 }
 
 .h-adrenaline-rules__text {
@@ -3203,20 +3224,88 @@ text-align: center;
 
 .h-adrenaline-rules__text--info {
     padding: 11.5px 22px;
-    background-color: rgba(93,163,135, 0.3);
+    background-color: rgba(93, 163, 135, 0.3);
 }
+
 .h-adrenaline-general {
     background-color: var(--color-global);
 }
-.h-adrenaline-second{
-    background-color: rgba(93,163,135, 0.7);
+
+.h-adrenaline-second {
+    background-color: rgba(93, 163, 135, 0.7);
 }
 
 .h-adrenaline-rules__text--info p {
     font-size: 16px;
     color: #FFFFFF;
 }
+
 .h-rules-text__details {
     height: 100%;
 }
+
+/* .h-adrenaline-dropdown{
+    display: none;
+} */
+.h-open .h-adrenaline-dropdown{
+    position: relative;
+    background-color: green;
+    background-image: url('../new-img/informations/game-timetable.png');
+    width: 100%;
+}
+.h-adrenaline-dropdown{
+    padding: 22px;
+}
+.h-adrenaline-dropdown__block{
+    margin: 0 -9px;
+}
+.h-adrenaline-dropdown__block--list{
+    padding: 0 9px;
+    text-align: center;
+}
+.h-adrenaline-dropdown__img{
+    width: 53px;
+    height: 50px;
+    margin: 0 auto;
+}
+.h-open .h-adrenaline-game__details--done .icon-bottom {
+    transform: rotate(180deg);
+    transition: var(--transition-all);
+}
+
 /*=================-ADRENALINERUSH-STYLE-END-=====================*/
+/*==================-GAME-START-STYLE-START-======================*/
+
+.h-adrenaline-game__start {
+    border: none;
+}
+.h-adrenaline-game__start--match{
+    padding: 16px 24px 16px;
+    text-align: left;
+}
+.h-adrenaline-game__start--title h3{
+margin-bottom: 10px;
+}
+.h-adrenaline-game__start--title ul li {
+    font-size: 14px;
+    color: #FFFFFF;
+    margin-bottom: 15px;
+    position: relative;
+}
+.h-adrenaline-game__start--title ul li .icon{
+    font-size: 7px;
+    margin-right: 9px;
+}
+.h-adrenaline-game__start--title ul li .icon-Vector-11{
+    color: #17d965;
+}
+.h-adrenaline-game__start--title ul li .icon-Vector-12{
+    color: #d91717;
+}
+.h-adrenaline-game__btn button{
+    width: 177px;
+    background: #17D965;
+    padding: 8px 23px 9px;
+    margin: auto;
+}
+/*==================-GAME-START-STYLE-END-======================*/
