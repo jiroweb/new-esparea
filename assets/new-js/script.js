@@ -61,23 +61,41 @@ $(document).ready(function () {
     })
 
 
-   // $('.countdown').downCount({
+    // $('.countdown').downCount({
     //     date: '03/28/2020 24:00:00',
     //     offset: +4
     // }, function () {
     //     alert('Время уже заполнено!');
     // });
 
-    
+
     $('.video-play__bg').click(function () {
-        var this_prt = $(this).parent()
-        var parent_video = $(this_prt)
-        var icon_video = $(parent_video).find(".video-play__bg")
-        var video = $(parent_video).find(".video")
+        let this_prt = $(this).parent()
+        let parent_video = $(this_prt)
+        let icon_video = $(parent_video).find(".video-play__bg")
+        let video = $(parent_video).find(".video")
         $(video).trigger('play')
         $(video).attr("controls", "controls")
         $(icon_video).fadeOut()
     });
 
+
+    let circle = document.querySelector('circle');
+    let radius = circle.r.baseVal.value;
+    let circumference = radius * 2 * Math.PI;
+
+    circle.style.strokeDasharray = ` ${ circumference } ${ circumference } `;
+    circle.style.strokeDashoffset = ` ${ circumference } `;
+
+    function setProgress(percent) {
+        const offset = circumference - percent / 100 * circumference;
+        circle.style.strokeDashoffset = offset;
+    }
+    
+    const circleAttr = document.querySelector("circle").getAttribute("progress");
+    console.log(circleAttr)
+
+    setProgress(circleAttr);
 });
+
 
